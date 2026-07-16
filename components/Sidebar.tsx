@@ -27,14 +27,14 @@ const sections = [
     href: '/csv-analyser',
     label: 'CSV Analyser Skill',
     tag: '3',
-    subtitle: 'SingStat MCP',
+    subtitle: 'Create Skill with Chat',
     icon: ChartIcon,
   },
   {
     href: '/python-reviewer',
     label: 'Python Code Reviewer',
     tag: '4',
-    subtitle: 'Code Review Skill',
+    subtitle: 'Create Skill with Editor',
     icon: CodeIcon,
   },
 ]
@@ -56,7 +56,7 @@ export function Sidebar() {
         </div>
         <div>
           <p className="text-sm font-semibold leading-none" style={{ color: 'var(--text-primary)' }}>
-            Tech Test Drive
+            DS Tech Test Drive
           </p>
           <p className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>
             Demo Guide

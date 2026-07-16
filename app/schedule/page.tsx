@@ -36,7 +36,7 @@ export default function SchedulePage() {
         <p className="text-sm mb-3">
           Select the option to create a new scheduled task and enter this prompt:
         </p>
-        <PromptBlock>{`Every afternoon at 3pm, search the web for the top three most important technology news stories published within the past 3 days.
+        <PromptBlock>{`Every morning at 11:30am, search the web for the top three most important technology news stories published within the past 3 days.
 
 Prioritize major developments in artificial intelligence, software, cybersecurity, cloud computing, and consumer technology.
 

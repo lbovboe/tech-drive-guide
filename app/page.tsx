@@ -27,7 +27,7 @@ const sections = [
     number: '3',
     href: '/csv-analyser',
     title: 'CSV Analyser Skill',
-    subtitle: 'SingStat MCP',
+    subtitle: 'Creating Skill with Chat',
     description:
       'Build and share a reusable skill that analyses SingStat MCP CSV query logs and generates monthly usage reports in DOCX and PDF.',
     steps: 9,
@@ -38,7 +38,7 @@ const sections = [
     number: '4',
     href: '/python-reviewer',
     title: 'Python Code Reviewer',
-    subtitle: 'Code Review Skill',
+    subtitle: 'Creating Skill with Editor Form',
     description:
       'Create a shared skill that applies consistent Python review standards across your division, covering PEP 8, security, and testing.',
     steps: 7,
@@ -58,7 +58,7 @@ export default function Home() {
           ChatGPT Demo Guide
         </p>
         <h1 className="text-4xl font-bold mb-4 leading-tight" style={{ color: 'var(--text-primary)' }}>
-          Tech Test Drive
+          DS Tech Test Drive 30 July
         </h1>
         <p className="text-lg max-w-2xl leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
           A hands-on guide covering four demonstrations: scheduled news reports, custom GPTs, and
