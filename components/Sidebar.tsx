@@ -47,7 +47,7 @@ export function Sidebar() {
       className="fixed top-0 left-0 h-screen w-64 flex flex-col z-30"
       style={{ background: 'var(--bg-surface)', borderRight: '1px solid var(--border)' }}
     >
-      <div className="flex items-center gap-3 px-5 py-5" style={{ borderBottom: '1px solid var(--border)' }}>
+      <div className="flex items-center gap-3 px-5 py-[14px]" style={{ borderBottom: '1px solid var(--border)' }}>
         <div
           className="flex h-8 w-8 items-center justify-center rounded-lg text-white font-bold text-sm"
           style={{ background: 'var(--step-bg)' }}
@@ -103,7 +103,7 @@ export function Sidebar() {
 
       <div className="px-4 py-4" style={{ borderTop: '1px solid var(--border)' }}>
         <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
-          ChatGPT Demo Guide
+          Tech Test Drive Guide
         </p>
       </div>
     </aside>
