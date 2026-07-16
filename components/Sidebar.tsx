@@ -52,11 +52,11 @@ export function Sidebar() {
           className="flex h-8 w-8 items-center justify-center rounded-lg text-white font-bold text-sm"
           style={{ background: 'var(--step-bg)' }}
         >
-          T
+          TD
         </div>
         <div>
           <p className="text-sm font-semibold leading-none" style={{ color: 'var(--text-primary)' }}>
-            DS Tech Test Drive
+            Tech Test Drive
           </p>
           <p className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>
             Demo Guide

@@ -58,7 +58,7 @@ export default function Home() {
           Tech Test Drive Demo Guide
         </p>
         <h1 className="text-4xl font-bold mb-4 leading-tight" style={{ color: 'var(--text-primary)' }}>
-          DS Tech Test Drive - 30 July
+          TD Tech Test Drive - 30 July
         </h1>
         <p className="text-lg max-w-2xl leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
           A hands-on guide covering four demonstrations: scheduled news reports, custom GPTs, and
