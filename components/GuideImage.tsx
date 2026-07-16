@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 interface GuideImageProps {
   src: string
   alt: string
@@ -8,6 +6,8 @@ interface GuideImageProps {
   height: number
 }
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? ''
+
 export function GuideImage({ src, alt, caption, width, height }: GuideImageProps) {
   return (
     <figure className="my-6">
@@ -15,8 +15,9 @@ export function GuideImage({ src, alt, caption, width, height }: GuideImageProps
         className="overflow-hidden rounded-xl p-2"
         style={{ background: 'var(--bg-surface-2)', border: '1px solid var(--border)' }}
       >
-        <Image
-          src={src}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={`${basePath}${src}`}
           alt={alt}
           width={width}
           height={height}
