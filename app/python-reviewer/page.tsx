@@ -294,6 +294,19 @@ class userManager:
           Click the <strong style={{ color: 'var(--text-primary)' }}>+</strong> button beside the
           skill.
         </p>
+        <div
+          className="mt-4 rounded-lg p-4 text-sm space-y-2"
+          style={{ background: 'var(--bg-surface-2)', border: '1px solid var(--border)' }}
+        >
+          <p className="font-medium" style={{ color: 'var(--text-primary)' }}>
+            Skill not detected after installing?
+          </p>
+          <p style={{ color: 'var(--text-secondary)' }}>
+            This is a known issue in the current version. Try opening the skill editor, make any
+            minor change, and click <strong style={{ color: 'var(--text-primary)' }}>Save</strong>.
+            If the skill still does not detected inside the chat, close the browser completely and log back in again.
+          </p>
+        </div>
       </StepCard>
 
       <StepCard number={8} title="Open a chat">

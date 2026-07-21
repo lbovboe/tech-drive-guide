@@ -152,13 +152,13 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
           style={{ background: 'var(--bg-surface-2)', border: '1px solid var(--border)' }}
         >
           <p className="font-medium" style={{ color: 'var(--text-primary)' }}>
-            If the skill does not open correctly:
+            Skill not detected after installing?
           </p>
-          <ol className="list-decimal list-inside space-y-1" style={{ color: 'var(--text-secondary)' }}>
-            <li>Refresh the page.</li>
-            <li>Close and reopen the tab.</li>
-            <li>Sign out and sign in again if the issue continues.</li>
-          </ol>
+          <p style={{ color: 'var(--text-secondary)' }}>
+            This is a known issue in the current version. Try opening the skill editor, make any
+            minor change, and click <strong style={{ color: 'var(--text-primary)' }}>Save</strong>.
+            If the skill still does not detected inside the chat, close the browser completely and log back in again.
+          </p>
         </div>
       </StepCard>
 
