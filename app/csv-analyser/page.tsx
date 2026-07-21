@@ -5,6 +5,7 @@ import { GuideImage } from '@/components/GuideImage'
 import { SectionNav } from '@/components/SectionNav'
 
 const IMG = '/Tech_Test_Drive_Extracted_Images'
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? ''
 
 export default function CsvAnalyserPage() {
   return (
@@ -67,8 +68,17 @@ export default function CsvAnalyserPage() {
       </StepCard>
 
       <StepCard number={4} title="Provide the skill requirements">
+        <div
+          className="mb-4 rounded-lg px-4 py-3 text-sm"
+          style={{ background: 'var(--bg-surface-2)', border: '1px solid var(--border)' }}
+        >
+          <span className="font-semibold" style={{ color: 'var(--text-primary)' }}>Before copying: </span>
+          <span style={{ color: 'var(--text-secondary)' }}>
+            Replace <code className="rounded px-1 py-0.5 text-xs font-mono" style={{ background: 'var(--bg-surface)', border: '1px solid var(--border)' }}>[your name]</code> in the prompt below with your own name or initials (e.g. <strong style={{ color: 'var(--text-primary)' }}>singstat-csv-analyser-john</strong>). This ensures your skill has a unique name and does not conflict with others in the shared workspace.
+          </span>
+        </div>
         <p className="text-sm mb-3">Enter the following requirement:</p>
-        <PromptBlock>{`Create a skill called singstat-mcp-csv-analyser. It should analyse SingStat MCP query-log CSVs containing the columns sessionid, query, responsetime, confidencescore and createddate.
+        <PromptBlock>{`Create a skill called singstat-csv-analyser-[your name]. It should analyse query-log CSVs containing the columns sessionid, query, responsetime, confidencescore and createddate.
 
 Generate a monthly usage report in both DOCX and PDF format. Do not create a Markdown deliverable.
 
@@ -163,11 +173,57 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
       </StepCard>
 
       <StepCard number={8} title="Run the skill">
-        <p className="text-sm mb-3">You can either:</p>
-        <ul className="list-disc list-inside space-y-1.5 text-sm">
-          <li>Use the automatically generated example prompt, or</li>
-          <li>Upload an actual SingStat MCP CSV file</li>
-        </ul>
+        <p className="text-sm mb-3">There are two ways to run the skill:</p>
+
+        {/* Option A */}
+        <div
+          className="rounded-xl p-4 mb-4 space-y-3"
+          style={{ background: 'var(--bg-surface-2)', border: '1px solid var(--border)' }}
+        >
+          <p className="text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
+            Option A — Upload the sample CSV and generate a report
+          </p>
+          <ol className="list-decimal list-inside space-y-2 text-sm" style={{ color: 'var(--text-secondary)' }}>
+            <li>
+              Download the sample CSV file below, then attach it in the skill chat.
+            </li>
+            <li>
+              Paste the following prompt:
+            </li>
+          </ol>
+          <PromptBlock>Generate the report base on the csv</PromptBlock>
+          <a
+            href={`${BASE_PATH}/mcp_query_log_July.csv`}
+            download="mcp_query_log_July.csv"
+            className="inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-opacity hover:opacity-80"
+            style={{
+              background: 'var(--accent)',
+              color: '#fff',
+              textDecoration: 'none',
+            }}
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            Download mcp_query_log_July.csv
+          </a>
+        </div>
+
+        {/* Option B */}
+        <div
+          className="rounded-xl p-4 space-y-3"
+          style={{ background: 'var(--bg-surface-2)', border: '1px solid var(--border)' }}
+        >
+          <p className="text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
+            Option B — Use the auto-generated default prompt
+          </p>
+          <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
+            Use the automatically generated example prompt that appears in the chat. It will generate a sample CSV and produce a report without needing to upload a file.
+          </p>
+        </div>
+
         <GuideImage
           src={`${IMG}/15_skill_default_chat_prompt_1051x417.png`}
           alt="Skill Default Chat Prompt"

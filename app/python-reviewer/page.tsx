@@ -179,9 +179,18 @@ export default function PythonReviewerPage() {
           height={742}
         />
 
+        <div
+          className="mb-4 rounded-lg px-4 py-3 text-sm"
+          style={{ background: 'var(--bg-surface-2)', border: '1px solid var(--border)' }}
+        >
+          <span className="font-semibold" style={{ color: 'var(--text-primary)' }}>Before filling in the Name field: </span>
+          <span style={{ color: 'var(--text-secondary)' }}>
+            Append your own name or initials to the skill name (e.g. <strong style={{ color: 'var(--text-primary)' }}>Python Code Reviewer — John</strong>). This ensures your skill has a unique name and does not conflict with others in the shared workspace.
+          </span>
+        </div>
         <div className="space-y-4 mt-4">
           <ConfigField label="Name">
-            <PromptBlock label="Name">Python Code Reviewer</PromptBlock>
+            <PromptBlock label="Name">Python Code Reviewer — [Your Name]</PromptBlock>
           </ConfigField>
 
           <ConfigField label="Description">
