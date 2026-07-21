@@ -61,13 +61,13 @@ const sections = [
 export default function Home() {
   return (
     <div>
-      <div className="mb-12">
-        <p
+      <div className="mb-8">
+        {/* <p
           className="inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold mb-5"
           style={{ background: 'var(--accent-dim)', color: 'var(--accent)' }}
         >
           Tech Test Drive Demo Guide
-        </p>
+        </p> */}
         <h1 className="text-4xl font-bold mb-4 leading-tight" style={{ color: 'var(--text-primary)' }}>
           TD Tech Test Drive - 30 July
         </h1>
