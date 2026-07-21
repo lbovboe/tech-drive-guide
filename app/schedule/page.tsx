@@ -70,7 +70,7 @@ Avoid covering three stories about the same event. Use credible and diverse news
       </StepCard>
 
       <StepCard number={4} title="Receive the notification">
-        <p className="text-sm mb-3">When the task runs, ChatGPT will send:</p>
+        <p className="text-sm mb-3">When the task runs during the scheduled time, ChatGPT will send:</p>
         <ul className="list-disc list-inside space-y-1.5 text-sm">
           <li>A push notification</li>
           <li>An email notification</li>
