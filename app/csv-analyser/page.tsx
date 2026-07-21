@@ -72,7 +72,7 @@ export default function CsvAnalyserPage() {
           className="mb-4 rounded-lg px-4 py-3 text-sm"
           style={{ background: 'var(--bg-surface-2)', border: '1px solid var(--border)' }}
         >
-          <span className="font-semibold" style={{ color: 'var(--text-primary)' }}>Before copying: </span>
+          <span className="font-semibold" style={{ color: 'var(--text-primary)' }}>After copying: </span>
           <span style={{ color: 'var(--text-secondary)' }}>
             Replace <code className="rounded px-1 py-0.5 text-xs font-mono" style={{ background: 'var(--bg-surface)', border: '1px solid var(--border)' }}>[your name]</code> in the prompt below with your own name or initials (e.g. <strong style={{ color: 'var(--text-primary)' }}>singstat-csv-analyser-john</strong>). This ensures your skill has a unique name and does not conflict with others in the shared workspace.
           </span>
