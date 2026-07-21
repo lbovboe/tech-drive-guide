@@ -5,6 +5,7 @@ import { GuideImage } from '@/components/GuideImage'
 import { SectionNav } from '@/components/SectionNav'
 
 const IMG = '/Tech_Test_Drive_Extracted_Images'
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? ''
 
 export default function CustomGptPage() {
   return (
@@ -99,7 +100,32 @@ export default function CustomGptPage() {
 
       <StepCard number={5} title="Upload knowledge files">
         <p className="text-sm mb-3">Upload relevant organisation or architecture documents.</p>
-        <p className="text-sm mb-2">Suitable formats include:</p>
+
+        <div
+          className="rounded-lg p-4 mb-4"
+          style={{ background: 'var(--bg-surface-2)', border: '1px solid var(--border)' }}
+        >
+          <p className="text-sm font-semibold mb-1" style={{ color: 'var(--text-primary)' }}>
+            Sample document provided
+          </p>
+          <p className="text-sm mb-3" style={{ color: 'var(--text-secondary)' }}>
+            Download the sample GCC overview document below and upload it to your custom GPT as
+            a knowledge file. This gives the GPT context about GCC, GCC 2.0, and GCC+.
+          </p>
+          <a
+            href={`${BASE_PATH}/GCC_GCC2_GCCPlus_Overview.docx`}
+            download
+            className="inline-flex items-center gap-2 rounded-md px-4 py-2 text-sm font-medium transition-colors"
+            style={{
+              background: 'var(--accent)',
+              color: '#fff',
+            }}
+          >
+            ⬇ Download GCC_GCC2_GCCPlus_Overview.docx
+          </a>
+        </div>
+
+        <p className="text-sm mb-2">Once downloaded, click <strong style={{ color: 'var(--text-primary)' }}>Upload files</strong> in the Knowledge section and select the file. Other suitable formats include:</p>
         <ul className="list-disc list-inside space-y-1 text-sm mb-4">
           <li>PDF</li>
           <li>Markdown</li>
