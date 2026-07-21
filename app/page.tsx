@@ -45,6 +45,17 @@ const sections = [
     icon: CodeIcon,
     color: '#f59e0b',
   },
+  {
+    number: '5',
+    href: '/sharepoint',
+    title: 'SharePoint Access',
+    subtitle: 'Plugin',
+    description:
+      'Install the SharePoint plugin to search and retrieve files you are authorised to access, locate recent documents, and ask questions based on SharePoint content.',
+    steps: 5,
+    icon: SharePointIcon,
+    color: '#0078d4',
+  },
 ]
 
 export default function Home() {
@@ -61,8 +72,8 @@ export default function Home() {
           TD Tech Test Drive - 30 July
         </h1>
         <p className="text-lg max-w-2xl leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-          A hands-on guide covering four demonstrations: scheduled news reports, custom GPTs, and
-          reusable AI skills built on ChatGPT.
+          A hands-on guide covering five demonstrations: scheduled news reports, custom GPTs,
+          reusable AI skills, and SharePoint plugin access built on ChatGPT.
         </p>
       </div>
 
@@ -164,6 +175,17 @@ function CodeIcon({ color }: { color: string }) {
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       <polyline points="16 18 22 12 16 6" />
       <polyline points="8 6 2 12 8 18" />
+    </svg>
+  )
+}
+
+function SharePointIcon({ color }: { color: string }) {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z" />
+      <polyline points="13 2 13 9 20 9" />
+      <line x1="9" y1="14" x2="15" y2="14" />
+      <line x1="9" y1="17" x2="13" y2="17" />
     </svg>
   )
 }

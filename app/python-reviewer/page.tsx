@@ -315,6 +315,7 @@ class userManager:
 
       <SectionNav
         prev={{ href: '/csv-analyser', label: 'CSV Analyser Skill' }}
+        next={{ href: '/sharepoint', label: 'SharePoint Access' }}
       />
     </div>
   )
