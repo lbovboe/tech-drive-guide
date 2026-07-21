@@ -225,9 +225,10 @@ Apply PEP 8, type-hinting, error-handling, testing, security and performance sta
         <p className="text-sm">Open a new skill chat.</p>
       </StepCard>
 
-      <StepCard number={5} title="Test the skill">
+      <StepCard number={5} title="Test with sample Python code">
         <p className="text-sm mb-3">
-          Use intentionally insecure and poorly formatted code, for example:
+          Open a new skill chat and paste the sample code below to test your skill. The code is
+          intentionally insecure and poorly formatted to surface a range of findings.
         </p>
         <PromptBlock label="Test code (Python)" mono>{`API_KEY = "replace-with-test-value"
 class userManager:
@@ -240,27 +241,6 @@ class userManager:
     def run_query(self, user_input):
         query = "SELECT * FROM users WHERE name = '" + user_input + "'"
         return query`}</PromptBlock>
-
-        <p className="text-sm mb-2">The reviewer should identify issues such as:</p>
-        <ul className="list-disc list-inside space-y-1 text-sm">
-          <li>Hard-coded credentials</li>
-          <li>Incorrect class and method naming</li>
-          <li>Missing type hints</li>
-          <li>SQL injection risk</li>
-          <li>Missing validation</li>
-          <li>Missing documentation</li>
-          <li>Weak error handling</li>
-          <li>Lack of tests</li>
-        </ul>
-
-        <div
-          className="mt-4 rounded-lg p-3 text-sm"
-          style={{ background: 'var(--bg-surface-2)', border: '1px solid var(--border)' }}
-        >
-          <p style={{ color: 'var(--text-muted)' }}>
-            Use a fake test value rather than a real API key in training material.
-          </p>
-        </div>
       </StepCard>
 
       {/* ── Install shared skill ──────────────────────────────── */}
@@ -309,8 +289,8 @@ class userManager:
         </div>
       </StepCard>
 
-      <StepCard number={8} title="Open a chat">
-        <ol className="list-decimal list-inside space-y-1.5 text-sm">
+      <StepCard number={8} title="Open a chat and test the skill">
+        <ol className="list-decimal list-inside space-y-1.5 text-sm mb-4">
           <li>Click the three-dot menu.</li>
           <li>
             Select <strong style={{ color: 'var(--text-primary)' }}>Chat</strong>.
@@ -324,6 +304,22 @@ class userManager:
           width={616}
           height={437}
         />
+        <p className="text-sm mb-3 mt-4">
+          Use intentionally insecure and poorly formatted code to test the skill, for example:
+        </p>
+        <PromptBlock label="Test code (Python)" mono>{`API_KEY = "replace-with-test-value"
+class userManager:
+    def __init__(self):
+        self.users = []
+    def AddUser(self, name):
+        self.users.append(name)
+    def get_auth_headers(self):
+        return {"Authorization": "Bearer " + API_KEY}
+    def run_query(self, user_input):
+        query = "SELECT * FROM users WHERE name = '" + user_input + "'"
+        return query`}</PromptBlock>
+
+
       </StepCard>
 
       <SectionNav
