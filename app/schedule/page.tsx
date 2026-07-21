@@ -34,7 +34,7 @@ export default function SchedulePage() {
 
       <StepCard number={2} title="Create the scheduled task">
         <p className="text-sm mb-3">
-          Select the option to create a new scheduled task and enter this prompt:
+          Enter the prompt below into the chat:
         </p>
         <PromptBlock>{`Every morning at 11:30am, search the web for the top three most important technology news stories published within the past 3 days.
 
