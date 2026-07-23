@@ -12,8 +12,8 @@ export default function CsvAnalyserPage() {
     <div>
       <PageHeader
         tag="3"
-        title="Build a SingStat MCP CSV Analyser Skill"
-        objective="Create a reusable skill that analyses SingStat MCP CSV query logs and generates reports in a consistent format."
+        title="Build a CSV Analyser Skill"
+        objective="Create a reusable skill that analyses CSV query logs and generates reports in a consistent format."
       />
 
       {/* ── Create the skill ─────────────────────────────────── */}
