@@ -7,12 +7,12 @@ interface PageHeaderProps {
 export function PageHeader({ tag, title, objective }: PageHeaderProps) {
   return (
     <div className="mb-10 pb-8" style={{ borderBottom: '1px solid var(--border)' }}>
-      <span
+      {/* <span
         className="inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold mb-4"
         style={{ background: 'var(--accent-dim)', color: 'var(--accent)' }}
       >
         Demo {tag}
-      </span>
+      </span> */}
       <h1 className="text-3xl font-bold mb-4" style={{ color: 'var(--text-primary)' }}>
         {title}
       </h1>

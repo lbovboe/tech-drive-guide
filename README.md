@@ -12,7 +12,7 @@ The guide covers four ChatGPT demonstrations:
 
 | # | Section | What it covers |
 |---|---|---|
-| 1 | **Daily Tech News** | Create a scheduled task that searches and delivers technology news every afternoon |
+| 1 | **Daily Tech News** | Create a scheduled task that searches and delivers technology news every morning |
 | 2 | **Principal AWS Architect** | Build a custom GPT that reviews AWS architectures using Well-Architected best practices |
 | 3 | **CSV Analyser Skill** | Create and share a reusable skill that analyses SingStat MCP CSV query logs |
 | 4 | **Python Code Reviewer** | Build a shared skill that applies consistent Python review standards across a team |

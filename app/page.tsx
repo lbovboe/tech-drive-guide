@@ -7,7 +7,7 @@ const sections = [
     title: 'Daily Technology News',
     subtitle: 'Scheduled Task',
     description:
-      'Configure ChatGPT to automatically search for important technology news every afternoon and send results via push notification and email.',
+      'Configure ChatGPT to automatically search for important technology news every morning and send results via push notification and email.',
     steps: 5,
     icon: CalendarIcon,
     color: '#3b82f6',

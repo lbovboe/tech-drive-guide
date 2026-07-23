@@ -12,7 +12,7 @@ export default function SchedulePage() {
       <PageHeader
         tag="1"
         title="Create a Daily Technology News Schedule"
-        objective="Configure ChatGPT to automatically search for important technology news every afternoon and send the results through ChatGPT and email notifications."
+        objective="Configure ChatGPT to automatically search for important technology news every morning and send the results through ChatGPT and email notifications."
       />
 
       <StepCard number={1} title="Open Scheduled Tasks">
