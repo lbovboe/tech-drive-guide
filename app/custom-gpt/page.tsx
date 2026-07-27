@@ -99,7 +99,7 @@ When answering questions, check the uploaded knowledge files first. If the answe
             <div className="space-y-2">
               <PromptBlock label="Starter 1">Review my AWS architecture</PromptBlock>
               <PromptBlock label="Starter 2">Estimate my AWS infrastructure cost</PromptBlock>
-              <PromptBlock label="Starter 3">Compare ECS, EKS and Lambda cost</PromptBlock>
+              <PromptBlock label="Starter 3">What is the VM monthly usage cost?</PromptBlock>
             </div>
           </ConfigField>
         </div>

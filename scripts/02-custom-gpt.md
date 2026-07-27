@@ -26,7 +26,7 @@ Lets click on the GPTs option on the left sidebar.
 
 Then on the top right hand corner , Click the **"+ Create"** button.
 
-You'll see there are two ways to build a GPT — through a conversational builder where you just describe what you want, or through a **Configure** tab where you fill in the details directly. We're going to use Configure, because it gives us more control.
+You'll see there are two ways building — one is through a chat where you just describe what you want, or through a **Configure** tab where you fill in the details directly. We're going to use Configure option, because it gives us more control.
 
 ---
 
@@ -34,7 +34,7 @@ You'll see there are two ways to build a GPT — through a conversational builde
 
 > **[Check guide: Use Case 2, Step 3]**
 
-Click on the **Configure** tab. You should now see this form for us to fil in.
+Click on the **Configure** tab. You should see this configure form for us to fill in.
 
 ---
 
