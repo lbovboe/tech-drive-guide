@@ -97,7 +97,7 @@ When answering questions, check the uploaded knowledge files first. If the answe
           <ConfigField label="Conversation starters">
             <p className="text-sm mb-2">Add these individually:</p>
             <div className="space-y-2">
-              <PromptBlock label="Starter 1">What is the VM monthly usage cost?</PromptBlock>
+              <PromptBlock label="Starter 1">What is the VM monthly cost?</PromptBlock>
               <PromptBlock label="Starter 2">What is GCC+?</PromptBlock>
               <PromptBlock label="Starter 3">Review my AWS architecture</PromptBlock>
             </div>
