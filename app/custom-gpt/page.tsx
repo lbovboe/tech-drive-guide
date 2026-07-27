@@ -98,7 +98,7 @@ When answering questions, check the uploaded knowledge files first. If the answe
             <p className="text-sm mb-2">Add these individually:</p>
             <div className="space-y-2">
               <PromptBlock label="Starter 1">Review my AWS architecture</PromptBlock>
-              <PromptBlock label="Starter 2">Estimate my AWS infrastructure cost</PromptBlock>
+              <PromptBlock label="Starter 2">What is GCC+?</PromptBlock>
               <PromptBlock label="Starter 3">What is the VM monthly usage cost?</PromptBlock>
             </div>
           </ConfigField>
@@ -187,10 +187,6 @@ When answering questions, check the uploaded knowledge files first. If the answe
 
         <div className="space-y-3">
           <PromptBlock label="Architecture review">{`Review this architecture: Internet → Application Load Balancer → EC2 in a single Availability Zone → RDS MySQL in a single Availability Zone. The application serves 100,000 users daily.`}</PromptBlock>
-
-          <PromptBlock label="Performance troubleshooting">{`We experienced 20 API timeouts during the first minute of a load test. After one minute, everything became stable. What would you investigate?`}</PromptBlock>
-
-          <PromptBlock label="Service selection">Should I choose ECS Fargate or Lambda for an image-processing API?</PromptBlock>
 
           <PromptBlock label="Knowledge-boundary test">What is GCC+?</PromptBlock>
         </div>
