@@ -107,7 +107,7 @@ When answering questions, check the uploaded knowledge files first. If the answe
             <div className="space-y-2">
               <PromptBlock label="Starter 1">What is the list of VM monthly cost?</PromptBlock>
               <PromptBlock label="Starter 2">What is GCC+?</PromptBlock>
-              <PromptBlock label="Starter 3">Review my AWS architecture</PromptBlock>
+              <PromptBlock label="Starter 3">What database services do you provide?</PromptBlock>
             </div>
           </ConfigField>
         </div>
@@ -195,6 +195,8 @@ When answering questions, check the uploaded knowledge files first. If the answe
 
         <div className="space-y-3">
           <PromptBlock label="Architecture review">{`Review this architecture: Internet → Application Load Balancer → EC2 in a single Availability Zone → RDS MySQL in a single Availability Zone. The application serves 100,000 users daily.`}</PromptBlock>
+
+          <PromptBlock label="Service query">What database services do you provide?</PromptBlock>
 
           <PromptBlock label="Knowledge-boundary test">What is GCC+?</PromptBlock>
         </div>
