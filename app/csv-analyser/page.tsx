@@ -72,7 +72,7 @@ export default function CsvAnalyserPage() {
             Replace <code className="rounded px-1 py-0.5 text-xs font-mono" style={{ background: 'var(--bg-surface)', border: '1px solid var(--border)' }}>[your name]</code> with your own name or initials (e.g. <strong style={{ color: 'var(--text-primary)' }}>singstat-csv-analyser-john</strong>). This ensures your skill has a unique name and does not conflict with others in the shared workspace.
           </span>
         </div>
-        <PromptBlock>{`Create a skill called singstat-csv-analyser-[your name]. It should analyse query-log CSVs containing the columns sessionid, query, responsetime, confidencescore and createddate.
+        <PromptBlock>{`Create a skill called singstat-csv-analyser-[your name]. It should analyse uploaded CSV files only — do not use external connectors or data sources. The CSV contains query-log data with the columns sessionid, query, responsetime, confidencescore and createddate. Proceed with creation immediately — do not ask any follow-up questions.
 
 Generate a monthly usage report in both DOCX and PDF format. Do not create a Markdown deliverable.
 
