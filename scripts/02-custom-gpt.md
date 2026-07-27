@@ -59,7 +59,7 @@ Take a couple of minutes to fill those in. Let me know if anything looks off.
 
 This is one of my favourite parts. You can upload your own documents as a knowledge base for the GPT to reference.
 
-In the guide, there's a sample file you can download — it's a GCC overview document. Download it and then upload it into the Knowledge section of the GPT configuration.
+In the guide, there's a sample file you can download — it's a sample overview document. Go to the hand-on guide. Under step 5, click on the download file button.
 
 This is what makes a Custom GPT really powerful — it can answer questions based on your actual internal documents, not just general knowledge.
 
@@ -69,14 +69,12 @@ This is what makes a Custom GPT really powerful — it can answer questions base
 
 > **[Check guide: Use Case 2, Step 6]**
 
-Scroll down to the Capabilities section. Enable the ones that make sense for this GPT:
+Scroll down to the Capabilities section. Make sure these are turn on
 
 - Web Search
 - Canvas
 - Image Generation
 - Code Interpreter and Data Analysis
-
-Only enable what you actually need — no point turning everything on by default.
 
 ---
 
@@ -84,7 +82,7 @@ Only enable what you actually need — no point turning everything on by default
 
 > **[Check guide: Use Case 2, Step 7]**
 
-Once you're happy with everything, click **Create** in the upper-right corner.
+click **Create** in the upper-right corner.
 
 Give it a moment. Is everyone seeing the GPT get created successfully?
 
@@ -94,7 +92,7 @@ Give it a moment. Is everyone seeing the GPT get created successfully?
 
 > **[Check guide: Use Case 2, Step 8]**
 
-Now let's test it. The guide has four test prompts — try at least one or two of them:
+Now let's test it. The guide has few test prompts — try at least one or two of them:
 
 1. **Architecture review** — paste in the simple architecture and see how it evaluates it
 2. **Performance troubleshooting** — describe a load test issue and see what it investigates

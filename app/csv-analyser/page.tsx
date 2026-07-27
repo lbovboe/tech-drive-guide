@@ -59,25 +59,19 @@ export default function CsvAnalyserPage() {
         />
       </StepCard>
 
-      <StepCard number={3} title="Start the skill-building conversation">
-        <p className="text-sm mb-3">Enter:</p>
-        <PromptBlock>
-          Help me create a skill. Keep it conversational, and start by asking what the skill should
-          do.
-        </PromptBlock>
-      </StepCard>
-
-      <StepCard number={4} title="Provide the skill requirements">
+      <StepCard number={3} title="Add the skill requirements">
+        <p className="text-sm mb-3">
+          Send the default prompt that is automatically generated — it will then ask what you want to create. Enter the following prompt:
+        </p>
         <div
           className="mb-4 rounded-lg px-4 py-3 text-sm"
           style={{ background: 'var(--bg-surface-2)', border: '1px solid var(--border)' }}
         >
-          <span className="font-semibold" style={{ color: 'var(--text-primary)' }}>After copying: </span>
+          <span className="font-semibold" style={{ color: 'var(--text-primary)' }}>Before sending the requirements: </span>
           <span style={{ color: 'var(--text-secondary)' }}>
-            Replace <code className="rounded px-1 py-0.5 text-xs font-mono" style={{ background: 'var(--bg-surface)', border: '1px solid var(--border)' }}>[your name]</code> in the prompt below with your own name or initials (e.g. <strong style={{ color: 'var(--text-primary)' }}>singstat-csv-analyser-john</strong>). This ensures your skill has a unique name and does not conflict with others in the shared workspace.
+            Replace <code className="rounded px-1 py-0.5 text-xs font-mono" style={{ background: 'var(--bg-surface)', border: '1px solid var(--border)' }}>[your name]</code> with your own name or initials (e.g. <strong style={{ color: 'var(--text-primary)' }}>singstat-csv-analyser-john</strong>). This ensures your skill has a unique name and does not conflict with others in the shared workspace.
           </span>
         </div>
-        <p className="text-sm mb-3">Enter the following requirement:</p>
         <PromptBlock>{`Create a skill called singstat-csv-analyser-[your name]. It should analyse query-log CSVs containing the columns sessionid, query, responsetime, confidencescore and createddate.
 
 Generate a monthly usage report in both DOCX and PDF format. Do not create a Markdown deliverable.
@@ -110,7 +104,7 @@ Use this report title:
 SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
       </StepCard>
 
-      <StepCard number={5} title="Install the skill">
+      <StepCard number={4} title="Install the skill">
         <p className="text-sm mb-3">
           Wait approximately three to five minutes for the skill to be generated.
         </p>
@@ -127,7 +121,7 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
         />
       </StepCard>
 
-      <StepCard number={6} title="Confirm installation">
+      <StepCard number={5} title="Confirm installation">
         <p className="text-sm mb-3">
           Return to: <strong style={{ color: 'var(--text-primary)' }}>Plugins → Skills</strong>
         </p>
@@ -143,7 +137,7 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
         />
       </StepCard>
 
-      <StepCard number={7} title="Start using the skill">
+      <StepCard number={6} title="Start using the skill">
         <ol className="list-decimal list-inside space-y-1.5 text-sm mb-4">
           <li>Click the three-dot menu next to the skill.</li>
           <li>
@@ -172,7 +166,7 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
         </div>
       </StepCard>
 
-      <StepCard number={8} title="Run the skill">
+      <StepCard number={7} title="Run the skill">
         <p className="text-sm mb-3">There are two ways to run the skill:</p>
 
         {/* Option A */}
@@ -233,7 +227,7 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
         />
       </StepCard>
 
-      <StepCard number={9} title="Download the report">
+      <StepCard number={8} title="Download the report">
         <p className="text-sm mb-3">Wait approximately five minutes for processing.</p>
         <p className="text-sm mb-2">Download the generated:</p>
         <ul className="list-disc list-inside space-y-1 text-sm">
@@ -255,7 +249,7 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
         <SectionHeading>Part B — Share the Skill</SectionHeading>
       </div>
 
-      <StepCard number={10} title="Open sharing options">
+      <StepCard number={9} title="Open sharing options">
         <ol className="list-decimal list-inside space-y-1.5 text-sm">
           <li>Open the three-dot menu beside the skill.</li>
           <li>
@@ -271,7 +265,7 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
         />
       </StepCard>
 
-      <StepCard number={11} title="Set access permissions">
+      <StepCard number={10} title="Set access permissions">
         <p className="text-sm mb-2">
           Under <strong style={{ color: 'var(--text-primary)' }}>Who has access</strong>, select the
           appropriate organisation-wide option, such as:
@@ -292,7 +286,7 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
         <SectionHeading>Part C — Install and Use the Shared Skill</SectionHeading>
       </div>
 
-      <StepCard number={12} title="Find the shared skill">
+      <StepCard number={11} title="Find the shared skill">
         <ol className="list-decimal list-inside space-y-1.5 text-sm">
           <li>
             Open <strong style={{ color: 'var(--text-primary)' }}>Plugins → Skills</strong>.
@@ -313,14 +307,14 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
         />
       </StepCard>
 
-      <StepCard number={13} title="Install it">
+      <StepCard number={12} title="Install it">
         <p className="text-sm">
           Click the <strong style={{ color: 'var(--text-primary)' }}>+</strong> button beside the
           skill. The skill should install automatically.
         </p>
       </StepCard>
 
-      <StepCard number={14} title="Open the skill">
+      <StepCard number={13} title="Open the skill">
         <ol className="list-decimal list-inside space-y-1.5 text-sm">
           <li>Click the three-dot menu.</li>
           <li>
