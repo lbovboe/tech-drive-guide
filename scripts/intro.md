@@ -8,23 +8,27 @@ Alright, before we get started — can everyone go to this URL?
 
 > **[URL here]**
 
-Go to your browser and enter tinyurl.com/tdjul26 — that's "jul" for July, without the "y". Let me know if you're having any issue accessing it — I'll wait about a minute to make sure everyone's loaded the page.
+Go to your browser and enter tinyurl.com/tdjul26. Let me know if you are able to access it. You should be able to see a page with today's hand-on guide.
 
 ---
 
 ## Opening
 
-I'll be walking you through **five use cases** I've personally been setting up and using with ChatGPT — they are genuinely useful for our day-to-day work. 
+I guess everyone is able to access the page. I'll be walking you through these **five use cases** that i personally using with ChatGPT — they are genuinely useful for our day-to-day work. 
 
-We'll start with the **Scheduler**, using Daily Tech News as the example — it automatically searches and pulls the important technology news every morning, so you don't have to search for it yourself.
+the first one we will be building a **Scheduler** for Daily Tech News, it will automatically searches and pulls the important technology news every morning, so we don't have to search for it ourselves
 
-Next, a **Custom GPT**. This is where you give ChatGPT a fixed role, instructions, and even your own documents, so it behaves like a specialist instead of a general assistant you have to re-explain things to every time. We'll build an AWS Architect version that reviews architectures and answers AWS-related questions, but the same idea works for any domain your team needs an expert on.
+Next, will be building a **Custom GPT**. it behaves like a specialist instead of a general assistant so we don;t have to re-explain things every time. 
+We'll build an AWS Architect Specialist version, but the same idea works for any domain your team needs an expert on.
 
-After that, we'll look at **Skills** — reusable workflows the whole team can share, so no one's writing prompts from scratch. We'll build two: a **CSV Analyzer**, created through chat, which analyses query logs and generates reports in a consistent format; and a **Code Reviewer**, created through the editor, which applies the same Python coding standards across the whole team, so review quality doesn't depend on who's doing the reviewing.
+After that, we'll look at **Skills** — reusable workflows . We'll build a **CSV Analyzer** using the chat, it will analyses query logs and generates reports in a consistent format every time; 
+Also we will build a **Code Reviewer**, it is created through the editor, it will review our code based on the coding standards that we defined.
 
-And last but not least, a **SharePoint plugin**, so ChatGPT can search and summarise information straight from your SharePoint files.
+And last but not least, we will connect our ChatGPT to **SharePoint** using plugin, which can search and summarise information straight from our SharePoint files.
 
-By the end of this session, you'll have gone through all five yourself, seen how each one works, and hopefully walked away with at least one or two things you can start using straight away. We'll go through each one step by step — I'll demo it first, and then you can follow along at your own pace using the guide.
+By the end of this session, you will see how each one works, and hopefully walked away with at least one or two things you can start using straight away. 
+
+Now, i need you guys to login to your ChatGPt and we will start with our hands-on. Do let us know if you having any issue login in.
 
 ---
 
