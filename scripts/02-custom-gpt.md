@@ -4,13 +4,10 @@
 
 ## Introduction
 
-Okay, use case two — **Custom GPTs**.
+okay, lets move on to our second use case, we will be building the **Custom GPTs**.
 
-This is where things start to get a bit more interesting. A Custom GPT lets you give ChatGPT a very specific role, a persona, a set of instructions, and even your own documents to reference. So instead of starting every conversation from scratch and re-explaining the context, you build it once and it's always there.
+ A Custom GPT lets you give ChatGPT a very specific role, a persona, a set of instructions, and even your own knowledge base. So instead of starting every conversation from scratch and re-explaining the context, you build it once and it's always there.
 
-The example we're using today is a **Principal AWS Architect** — basically a GPT that knows AWS inside out and reviews your cloud architectures using Well-Architected best practices. But the same concept applies to any domain your team works in.
-
-Let's build it.
 
 ---
 
@@ -18,9 +15,8 @@ Let's build it.
 
 > **[Check guide: Use Case 2, Step 1]**
 
-In ChatGPT, look for **"GPTs"** in the left sidebar and click on it.
+Lets click on the GPTs option on the left sidebar.
 
-Can everyone see the GPTs section? Great. This is where all your custom GPTs will live once you've created them.
 
 ---
 
@@ -28,7 +24,7 @@ Can everyone see the GPTs section? Great. This is where all your custom GPTs wil
 
 > **[Check guide: Use Case 2, Step 2]**
 
-Click the **"+ Create"** button in the upper-right corner.
+Then on the top right hand corner , Click the **"+ Create"** button.
 
 You'll see there are two ways to build a GPT — through a conversational builder where you just describe what you want, or through a **Configure** tab where you fill in the details directly. We're going to use Configure, because it gives us more control.
 
@@ -38,9 +34,7 @@ You'll see there are two ways to build a GPT — through a conversational builde
 
 > **[Check guide: Use Case 2, Step 3]**
 
-Click on the **Configure** tab. You should now see a form with fields for the name, description, instructions, and so on.
-
-Is everyone on the Configure tab? Good.
+Click on the **Configure** tab. You should now see this form for us to fil in.
 
 ---
 
