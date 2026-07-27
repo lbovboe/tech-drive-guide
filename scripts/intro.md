@@ -14,7 +14,7 @@ Go to your browser and enter tinyurl.com/tdjul26. Let me know if you are able to
 
 ## Opening
 
-I guess everyone is able to access the page. I'll be walking you through these **five use cases** that i personally using with ChatGPT — they are genuinely useful for our day-to-day work. 
+I guess everyone is able to access the page. I'll be walking you through these **five use cases** that i personally been using with ChatGPT — they are genuinely useful for our day-to-day work. 
 
 the first one we will be building a **Scheduler** for Daily Tech News, it will automatically searches and pulls the important technology news every morning, so we don't have to search for it ourselves
 
@@ -22,26 +22,15 @@ Next, will be building a **Custom GPT**. it behaves like a specialist instead of
 We'll build an AWS Architect Specialist version, but the same idea works for any domain your team needs an expert on.
 
 After that, we'll look at **Skills** — reusable workflows . We'll build a **CSV Analyzer** using the chat, it will analyses query logs and generates reports in a consistent format every time; 
-Also we will build a **Code Reviewer**, it is created through the editor, it will review our code based on the coding standards that we defined.
+Also we will build a **Code Reviewer** using editor feature, it will review our code based on the coding standards that we defined.
 
 And last but not least, we will connect our ChatGPT to **SharePoint** using plugin, which can search and summarise information straight from our SharePoint files.
 
 By the end of this session, you will see how each one works, and hopefully walked away with at least one or two things you can start using straight away. 
 
-Now, i need you guys to login to your ChatGPt and we will start with our hands-on. Do let us know if you having any issue login in.
-
----
-
-## A Quick Note Before We Dive In
-
-A few things to keep in mind as we go:
-
-- If you get stuck at any point, raise your hand and we'll sort it out.
+Now, please login to your ChatGPt and we will start with our hands-on. Please let us know if u facing any issue login. 
 
 
-Alright — everyone ready? Let's start with the first one.
-
----
 
 ## Anticipated Questions (Reference — not part of the read-aloud script)
 

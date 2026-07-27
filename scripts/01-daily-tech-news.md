@@ -4,11 +4,7 @@
 
 ## Introduction
 
-Alright, let's jump into the first one — **Daily Technology News**.
-
-So this is probably the simplest one we'll do today, but honestly it's one of the most useful. The idea is simple: instead of you having to remember to go and search for tech news every day, you just set it up once and ChatGPT does it for you automatically — every morning, without you lifting a finger.
-
-Let's go through it together.
+Alright, let's start with building the schedule task for retrieving tech news every morning.
 
 ---
 
@@ -16,9 +12,9 @@ Let's go through it together.
 
 > **[Check guide: Use Case 1, Step 1]**
 
-First, open up ChatGPT. On the left sidebar, you should see an option called **"Scheduled"** — go ahead and click on that.
+First, open up ChatGPT. On the left sidebar, you should see an option called **"Scheduled"** — click on that.
 
-Can everyone see the Scheduled section in your sidebar? If it's not showing up, try scrolling down in the sidebar — it should be there.
+u should see this chat interface.
 
 ---
 
@@ -26,9 +22,11 @@ Can everyone see the Scheduled section in your sidebar? If it's not showing up, 
 
 > **[Check guide: Use Case 1, Step 2]**
 
-Now, in the guide you'll see a prompt ready to copy. This prompt tells ChatGPT exactly what to do — search for the top three tech news stories every morning at 11:30am, summarise them, explain why they matter, and give you the source.
+Now, go to the hand-on guide, click on the daily technology news options on the left side-bar, this page includse all the steps u need to build the scheduler.  you'll see a prompt ready to copy under step 2. This prompt tells ChatGPT exactly what to do — Every morning, search for top 3 tech news and summarise in this format.
 
-Go ahead and copy that prompt from the guide and paste it into the chat. Then hit send.
+Go ahead and copy that prompt from the guide and paste it back into the chat. Then hit send.
+
+while waiting for it to generate the task, maka and jingkiat will be walking around assist u guys if u need any help.
 
 ---
 
@@ -36,11 +34,11 @@ Go ahead and copy that prompt from the guide and paste it into the chat. Then hi
 
 > **[Check guide: Use Case 1, Step 3]**
 
-Once you've sent it, ChatGPT will create a task called **"Tech News Brief"**. Click on it to open it.
+Once the task scheduler is created, it will looks something like this. there will be an option call  **"Daily Tech news"**. Click on it, u should be able to see the configuration setting.
 
-You should be able to see the frequency, the time it's set to run, and when the next run is scheduled. If you want to change the timing — say you'd prefer 9am instead of 11:30am — you can adjust it right here.
+it includes the frequency, the time it's set to run, and when the next run is scheduled. If you want to change the timing. you can adjust it right here. It's 15min interval. 
 
-Take a moment to look at the settings. Does everyone see the task that was created? Good.
+Take a moment to look at the settings.
 
 ---
 
@@ -48,13 +46,11 @@ Take a moment to look at the settings. Does everyone see the task that was creat
 
 > **[Check guide: Use Case 1, Step 4]**
 
-So when the task actually runs at the scheduled time, ChatGPT will send you three things:
-
-- A **push notification** on your device
+when the task actually runs at the scheduled time, ChatGPT will send you a email notification:
+it will look something like this
 - An **email notification**
-- And the result will appear inside the scheduled task conversation itself
 
-You don't have to be in ChatGPT for it to run — it just happens in the background and notifies you.
+
 
 ---
 
@@ -62,17 +58,15 @@ You don't have to be in ChatGPT for it to run — it just happens in the backgro
 
 > **[Check guide: Use Case 1, Step 5]**
 
-And when you open it, each story will have a headline, a two-sentence summary, why it matters, the publication date, and a link to the source.
+You can click on the view message button and it will redirect you back to the chatgpt interface, and you will be able to see the 3 tech news. each news will have a headline, a two-sentence summary, why it matters, the publication date, and a link to the source.
 
-So you've basically got a daily tech briefing, fully automated, delivered to you every morning. No manual searching, no forgetting — it just runs.
+Basically u just got a daily tech briefing, fully automated, delivered to you every morning. No manual searching, no forgetting — it just runs.
 
 ---
 
 ## Wrap-up
 
-That's use case one done. Pretty straightforward to set up, but you can imagine applying this to other things too — daily meeting prep, market updates, regulatory news — anything you want to stay on top of regularly.
-
-Alright, let's move on to the next one.
+Now while waiting for it to trigger the scheduler on ur machine, we will move on to the next use case. Which is building the cursom GPT
 
 ---
 
