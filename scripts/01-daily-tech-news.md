@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Alright, let's start with building the schedule task for retrieving tech news every morning.
+Alright, i believe everyone has login. let's start with building the schedule task for retrieving tech news every morning.
 
 ---
 
@@ -12,7 +12,7 @@ Alright, let's start with building the schedule task for retrieving tech news ev
 
 > **[Check guide: Use Case 1, Step 1]**
 
-First, open up ChatGPT. On the left sidebar, you should see an option called **"Scheduled"** — click on that.
+First, On the left sidebar, you should see an option called **"Scheduled"** — click on that.
 
 u should see this chat interface.
 
@@ -26,7 +26,7 @@ Now, go to the hand-on guide, click on the daily technology news options on the 
 
 Go ahead and copy that prompt from the guide and paste it back into the chat. Then hit send.
 
-while waiting for it to generate the task, maka and jingkiat will be walking around assist u guys if u need any help.
+while waiting for it to generate the task, maka and jingkiat will be walking around assist u guys if u need any help please let us know.
 
 ---
 

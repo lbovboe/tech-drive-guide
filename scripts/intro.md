@@ -21,8 +21,8 @@ the first one we will be building a **Scheduler** for Daily Tech News, it will a
 Next, we will be building a **Custom GPT**. it behaves like a specialist instead of a general assistant so we don;t have to re-explain things every time. 
 We'll build an AWS Architect Specialist version, but the same idea works for any domain your team needs an expert on.
 
-After that, we'll look at **Skills** — reusable workflows . We'll build a **CSV Analyzer** using the chat, it will analyses query logs and generates reports in a consistent format every time; 
-Also we will build a **Code Reviewer** using editor feature, it will review our code based on the coding standards that we defined.
+After that, we'll look at **Skills** — It is like reusable workflows . We'll build a **CSV Analyzer** using the chat, it will analyses query logs and generates reports in a consistent format every time; 
+Also we will build a **Code Reviewer** using editor feature, it will review our code based on the coding standards that we defined.Ensure that every team member following the same coding standard
 
 And last but not least, we will connect our ChatGPT to **SharePoint** using plugin, which can search and summarise information straight from our SharePoint files.
 
