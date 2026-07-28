@@ -46,7 +46,7 @@ Take a moment to look at the settings.
 
 > **[Check guide: Use Case 1, Step 4]**
 
-when the task actually runs at the scheduled time, ChatGPT will send you a email notification:
+While waiting for your scheduler to be trigger, we will go through what happen when the task actually runs at the scheduled time. When the task is triggered by the job, ChatGPT will send you a email notification:
 it will look something like this
 - An **email notification**
 
@@ -66,7 +66,9 @@ Basically u just got a daily tech briefing, fully automated, delivered to you ev
 
 ## Wrap-up
 
-Now while waiting for it to trigger the scheduler on ur machine, we will move on to the next use case. Which is building the cursom GPT
+That's all about use case one! As you can see, it's a pretty simple setup — but the applications go way beyond just tech news. You could schedule it to summarise your unread emails each morning, monitor the latest market trends, or keep up with industry news. Really, any recurring task like this can be automated the same way.
+
+While we wait for the scheduler to trigger on your machines, let's move on to our next use case — building a Custom GPT.
 
 ---
 
