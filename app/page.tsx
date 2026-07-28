@@ -56,6 +56,17 @@ const sections = [
     icon: SharePointIcon,
     color: '#0078d4',
   },
+  {
+    number: '6',
+    href: '/ai-work-organizer',
+    title: 'AI Work Organizer',
+    subtitle: 'Scheduler + Plugin',
+    description:
+      'Combine Outlook Calendar, Outlook Email, and ChatGPT Scheduled Tasks to generate a daily work summary with this week\'s meetings, actionable emails, and prioritised next steps.',
+    steps: 7,
+    icon: OrganizerIcon,
+    color: '#06b6d4',
+  },
 ]
 
 export default function Home() {
@@ -72,8 +83,8 @@ export default function Home() {
           TD Tech Test Drive - 30 July
         </h1>
         <p className="text-lg max-w-2xl leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-          A hands-on guide covering five demonstrations: scheduled news reports, custom GPTs,
-          reusable AI skills, and SharePoint plugin access built on ChatGPT.
+          A hands-on guide covering six demonstrations: scheduled news reports, custom GPTs,
+          reusable AI skills, SharePoint plugin access, and an AI Work Organizer built on ChatGPT.
         </p>
       </div>
 
@@ -186,6 +197,18 @@ function SharePointIcon({ color }: { color: string }) {
       <polyline points="13 2 13 9 20 9" />
       <line x1="9" y1="14" x2="15" y2="14" />
       <line x1="9" y1="17" x2="13" y2="17" />
+    </svg>
+  )
+}
+
+function OrganizerIcon({ color }: { color: string }) {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="2" y="3" width="20" height="14" rx="2" />
+      <path d="M8 21h8" />
+      <path d="M12 17v4" />
+      <path d="M7 8h4" />
+      <path d="M7 12h8" />
     </svg>
   )
 }

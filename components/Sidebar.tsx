@@ -44,6 +44,13 @@ const sections = [
     subtitle: 'Plugin',
     icon: SharePointIcon,
   },
+  {
+    href: '/ai-work-organizer',
+    label: 'AI Work Organizer',
+    tag: '6',
+    subtitle: 'Scheduler + Plugin',
+    icon: OrganizerIcon,
+  },
 ]
 
 
@@ -179,6 +186,18 @@ function SharePointIcon({ size = 16 }: { size?: number }) {
       <polyline points="13 2 13 9 20 9" />
       <line x1="9" y1="14" x2="15" y2="14" />
       <line x1="9" y1="17" x2="13" y2="17" />
+    </svg>
+  )
+}
+
+function OrganizerIcon({ size = 16 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <rect x="2" y="3" width="20" height="14" rx="2" />
+      <path d="M8 21h8" />
+      <path d="M12 17v4" />
+      <path d="M7 8h4" />
+      <path d="M7 12h8" />
     </svg>
   )
 }

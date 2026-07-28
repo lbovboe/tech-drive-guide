@@ -118,7 +118,10 @@ export default function SharePointPage() {
         />
       </StepCard>
 
-      <SectionNav prev={{ href: '/python-reviewer', label: 'Python Code Reviewer' }} />
+      <SectionNav
+        prev={{ href: '/python-reviewer', label: 'Python Code Reviewer' }}
+        next={{ href: '/ai-work-organizer', label: 'AI Work Organizer' }}
+      />
     </div>
   )
 }
