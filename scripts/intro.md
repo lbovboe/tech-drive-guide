@@ -18,7 +18,7 @@ I guess everyone is able to access the page. I'll be walking you through these *
 
 the first one we will be building a **Scheduler** for Daily Tech News, it will automatically searches and pulls the important technology news every morning, so we don't have to search for it ourselves
 
-Next, will be building a **Custom GPT**. it behaves like a specialist instead of a general assistant so we don;t have to re-explain things every time. 
+Next, we will be building a **Custom GPT**. it behaves like a specialist instead of a general assistant so we don;t have to re-explain things every time. 
 We'll build an AWS Architect Specialist version, but the same idea works for any domain your team needs an expert on.
 
 After that, we'll look at **Skills** — reusable workflows . We'll build a **CSV Analyzer** using the chat, it will analyses query logs and generates reports in a consistent format every time; 
@@ -28,7 +28,7 @@ And last but not least, we will connect our ChatGPT to **SharePoint** using plug
 
 By the end of this session, you will see how each one works, and hopefully walked away with at least one or two things you can start using straight away. 
 
-Now, please login to your ChatGPt and we will start with our hands-on. Please let us know if u facing any issue login. 
+Now, please login to your ChatGPt and we will start with our hands-on. Please let us know if u facing any issue login. Maka and Jing Kiat will be walking around to assist u guys.
 
 
 
