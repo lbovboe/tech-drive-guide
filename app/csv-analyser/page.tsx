@@ -11,7 +11,7 @@ export default function CsvAnalyserPage() {
   return (
     <div>
       <PageHeader
-        tag="3"
+        tag="5"
         title="Build a CSV Analyser Skill"
         objective="Create a reusable skill that analyses CSV query logs and generates reports in a consistent format."
       />

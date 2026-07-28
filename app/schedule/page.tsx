@@ -170,7 +170,7 @@ Avoid covering three stories about the same event. Use credible and diverse news
 
       <SectionNav
         prev={{ href: '/', label: 'Overview' }}
-        next={{ href: '/custom-gpt', label: 'Custom GPT: Principal AWS Architect' }}
+        next={{ href: '/sharepoint', label: 'SharePoint Access' }}
       />
     </div>
   )

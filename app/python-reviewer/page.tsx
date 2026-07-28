@@ -138,7 +138,7 @@ export default function PythonReviewerPage() {
   return (
     <div>
       <PageHeader
-        tag="4"
+        tag="6"
         title="Build a Python Code Reviewer Skill"
         objective="Create a shared skill that applies the same Python review standards across the division."
       />
@@ -333,7 +333,6 @@ class userManager:
 
       <SectionNav
         prev={{ href: '/csv-analyser', label: 'CSV Analyser Skill' }}
-        next={{ href: '/sharepoint', label: 'SharePoint Access' }}
       />
     </div>
   )

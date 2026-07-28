@@ -10,7 +10,7 @@ export default function SharePointPage() {
   return (
     <div>
       <PageHeader
-        tag="5"
+        tag="2"
         title="SharePoint Access"
         objective="Install the SharePoint plugin to search and retrieve information from files you have permission to access in SharePoint, including recent documents and topic-based queries."
       />
@@ -119,7 +119,7 @@ export default function SharePointPage() {
       </StepCard>
 
       <SectionNav
-        prev={{ href: '/python-reviewer', label: 'Python Code Reviewer' }}
+        prev={{ href: '/schedule', label: 'Daily Technology News' }}
         next={{ href: '/ai-work-organizer', label: 'AI Work Organizer' }}
       />
     </div>

@@ -11,7 +11,7 @@ export default function CustomGptPage() {
   return (
     <div>
       <PageHeader
-        tag="2"
+        tag="4"
         title="Create a Custom GPT: Principal AWS Architect"
         objective="Create a specialised GPT that reviews AWS architectures using AWS Well-Architected best practices."
       />
@@ -214,7 +214,7 @@ When answering questions, check the uploaded knowledge files first. If the answe
       </StepCard>
 
       <SectionNav
-        prev={{ href: '/schedule', label: 'Daily Technology News' }}
+        prev={{ href: '/ai-work-organizer', label: 'AI Work Organizer' }}
         next={{ href: '/csv-analyser', label: 'CSV Analyser Skill' }}
       />
     </div>

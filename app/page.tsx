@@ -14,39 +14,6 @@ const sections = [
   },
   {
     number: '2',
-    href: '/custom-gpt',
-    title: 'Principal AWS Architect',
-    subtitle: 'Custom GPT',
-    description:
-      'Create a specialised GPT that reviews AWS architectures using AWS Well-Architected best practices with expert-level analysis.',
-    steps: 8,
-    icon: BotIcon,
-    color: '#8b5cf6',
-  },
-  {
-    number: '3',
-    href: '/csv-analyser',
-    title: 'CSV Analyser Skill',
-    subtitle: 'Creating Skill with Chat',
-    description:
-      'Build and share a reusable skill that analyses SingStat MCP CSV query logs and generates monthly usage reports in DOCX and PDF.',
-    steps: 9,
-    icon: ChartIcon,
-    color: '#10b981',
-  },
-  {
-    number: '4',
-    href: '/python-reviewer',
-    title: 'Python Code Reviewer',
-    subtitle: 'Creating Skill with Editor Form',
-    description:
-      'Create a shared skill that applies consistent Python review standards across your division, covering PEP 8, security, and testing.',
-    steps: 7,
-    icon: CodeIcon,
-    color: '#f59e0b',
-  },
-  {
-    number: '5',
     href: '/sharepoint',
     title: 'SharePoint Access',
     subtitle: 'Plugin',
@@ -57,7 +24,7 @@ const sections = [
     color: '#0078d4',
   },
   {
-    number: '6',
+    number: '3',
     href: '/ai-work-organizer',
     title: 'AI Work Organizer',
     subtitle: 'Scheduler + Plugin',
@@ -66,6 +33,39 @@ const sections = [
     steps: 7,
     icon: OrganizerIcon,
     color: '#06b6d4',
+  },
+  {
+    number: '4',
+    href: '/custom-gpt',
+    title: 'Principal AWS Architect',
+    subtitle: 'Custom GPT',
+    description:
+      'Create a specialised GPT that reviews AWS architectures using AWS Well-Architected best practices with expert-level analysis.',
+    steps: 8,
+    icon: BotIcon,
+    color: '#8b5cf6',
+  },
+  {
+    number: '5',
+    href: '/csv-analyser',
+    title: 'CSV Analyser Skill',
+    subtitle: 'Creating Skill with Chat',
+    description:
+      'Build and share a reusable skill that analyses SingStat MCP CSV query logs and generates monthly usage reports in DOCX and PDF.',
+    steps: 9,
+    icon: ChartIcon,
+    color: '#10b981',
+  },
+  {
+    number: '6',
+    href: '/python-reviewer',
+    title: 'Python Code Reviewer',
+    subtitle: 'Creating Skill with Editor Form',
+    description:
+      'Create a shared skill that applies consistent Python review standards across your division, covering PEP 8, security, and testing.',
+    steps: 7,
+    icon: CodeIcon,
+    color: '#f59e0b',
   },
 ]
 

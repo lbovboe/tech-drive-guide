@@ -10,7 +10,7 @@ export default function AiWorkOrganizerPage() {
   return (
     <div>
       <PageHeader
-        tag="6"
+        tag="3"
         title="AI Work Organizer"
         objective="Combine Outlook Calendar, Outlook Email, and ChatGPT Scheduled Tasks to generate a daily work summary — covering this week's meetings, emails that require action, flagged messages, suggested priorities, and calendar risks. The task is read-only and will not send emails, create drafts, edit calendar events, or change Outlook flags."
       />
@@ -243,7 +243,10 @@ Keep it concise and factual. Do not send emails, create drafts, modify calendar 
         />
       </StepCard>
 
-      <SectionNav prev={{ href: '/sharepoint', label: 'SharePoint Access' }} />
+      <SectionNav
+        prev={{ href: '/sharepoint', label: 'SharePoint Access' }}
+        next={{ href: '/custom-gpt', label: 'Custom GPT: Principal AWS Architect' }}
+      />
     </div>
   )
 }
