@@ -18,7 +18,6 @@ This is especially useful for teams where code review quality varies depending o
 
 ## Step 1 — Open the Editor
 
-> **[Check guide: Use Case 6, Step 1]**
 
 Go to **Plugins → Skills**, click the **+** button, but this time select **"Create with editor"** instead of "Create with chat".
 
@@ -28,7 +27,6 @@ This opens a structured form — you fill in the name, description, and instruct
 
 ## Step 2 — Fill in the Skill Form
 
-> **[Check guide: Use Case 6, Step 2]**
 
 There are three fields to fill in.
 
@@ -44,7 +42,6 @@ Take a few minutes to fill all three in. Let me know when you're ready to move o
 
 ## Step 3 — Create the Skill
 
-> **[Check guide: Use Case 6, Step 3]**
 
 Once everything is filled in, click **Create** in the upper-right corner.
 
@@ -52,7 +49,6 @@ Once everything is filled in, click **Create** in the upper-right corner.
 
 ## Step 4 — Confirm the Skill
 
-> **[Check guide: Use Case 6, Step 4]**
 
 Go back to the Skills page and confirm that your Python Code Reviewer appears in the list. Then open a new skill chat.
 
@@ -62,7 +58,6 @@ Can everyone see their skill? Good.
 
 ## Step 5 — Test It
 
-> **[Check guide: Use Case 6, Step 5]**
 
 The guide has a snippet of test code — it's intentionally bad. It has a hardcoded API key, SQL injection vulnerabilities, wrong naming conventions — all the things you'd want a code reviewer to catch.
 
@@ -80,7 +75,6 @@ Take a moment to try it. What's it flagging for you?
 
 ## Step 6 — Search for the Shared Skill
 
-> **[Check guide: Use Case 6, Step 6]**
 
 Now, same as before — let's find the pre-built shared version.
 
@@ -90,7 +84,6 @@ Go to Skills, search for **"python"**, and find **"singstat-python-code-reviewer
 
 ## Step 7 — Install It
 
-> **[Check guide: Use Case 6, Step 7]**
 
 Click **+** to install. Same note as earlier applies — if it doesn't get detected after installing, try saving a minor edit or doing a full browser refresh.
 
@@ -98,7 +91,6 @@ Click **+** to install. Same note as earlier applies — if it doesn't get detec
 
 ## Step 8 — Open and Test
 
-> **[Check guide: Use Case 6, Step 8]**
 
 Open it via the three-dot menu → Chat, paste in the same test code from earlier, and see what it returns.
 

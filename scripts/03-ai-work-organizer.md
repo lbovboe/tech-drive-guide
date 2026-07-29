@@ -8,15 +8,14 @@ Now lets move on to the next use case the **AI Work Organizer**.
 
 This one combines two things we've already touched on — the scheduler and plugins.
 
-It will generate a weekly work summary plan for us every morning, or every week depends on ur preference, it covers your meetings, emails that needs to follow up, and suggest the priorities for us.
+It will will use our calendar and email generate a weekly summary plan for us.
 
 ---
 
 ## Step 1 — Install the Outlook Plugins
 
-> **[Check guide: Use Case 3, Step 1]**
 
-Lets start with the installation for the two plugins: **Outlook Calendar** and **Outlook Email**.
+Lets start with the installation for the two plugins:
 
 Same thing, go to the plugin page and Just search **outlook** inside the search bar.
 
@@ -27,7 +26,6 @@ and install both of them.
 
 ## Step 2 — Open the Scheduled Page
 
-> **[Check guide: Use Case 3, Step 2]**
 
 Once installed those plugin, Now go back to the **Scheduled** page.
 
@@ -39,7 +37,6 @@ You can adjust it base on ur liking and click send.
 
 ## Step 3 — Enter the AI Work Organizer Prompt
 
-> **[Check guide: Use Case 3, Step 3]**
 
 Just like previous one, we need to tell what we want to schedule. For this case I already prepare the sample prompt. 
 Just go to the hands-on guide under step 3 copy this prompt. This prompt tell ...
@@ -49,7 +46,6 @@ You can adjust it base on ur liking and click send.
 
 ## Step 4 — Check the Schedule Configuration
 
-> **[Check guide: Use Case 3, Step 4]**
 
 Same as before , Once ChatGPT created the task we can open up the configuration and check the scheduled time, frequency so on and so forth
 
@@ -57,7 +53,6 @@ Same as before , Once ChatGPT created the task we can open up the configuration 
 
 ## Step 5 — Run the Task Immediately for Testing
 
-> **[Check guide: Use Case 3, Step 5]**
 
 You don't need to wait until tomorrow morning to see the output. We can run it immediately here.
 
@@ -69,7 +64,6 @@ When we run manually like this, the report generates immediately. However there 
 
 ## Step 6 — Review the Generated Calendar Section
 
-> **[Check guide: Use Case 3, Step 6]**
 
 This is how the report looks like. It includes the calender section, list down the event for the week, email section and 
 For example,  it is able to identify those normal emails that needs my attention and follow up. And also those emails that flag by me.
