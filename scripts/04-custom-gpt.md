@@ -4,12 +4,9 @@
 
 ## Introduction
 
-okay, lets move on to our fourth use case, we will be building the **Custom GPTs**.
 
- A Custom GPT lets you give ChatGPT a very specific role, a persona, a set of instructions, and even your own knowledge base. So instead of starting every conversation from scratch and re-explaining the context, you build it once and it's always there.
+ A Custom GPT lets us have a specialised assistant with a specific role, a persona, a set of instructions, and even we can include own knowledge base. We will be building a AWS specialist version for this demo
 
-
----
 
 ## Step 1 — Open the GPT Section
 
@@ -38,23 +35,24 @@ Click on the **Configure** tab. You should see this configure form for us to fil
 ## Step 4 — Fill in the GPT Details
 
 
-Now let's fill this in. The guide has the exact values to use — copy them across one by one.
+Go to Custom GPT hands-on guide, under Step 4,  it has all the values that we need, we copy over one by one.
 
 - **Name:** Principal AWS Architect
 - **Description:** copy it from the guide — it's a one-liner about what the GPT does
-- **Instructions:** this is the main bit — it tells the GPT how to think and respond. The guide has the key points it should follow, like applying Well-Architected terminology, evaluating security and cost, and writing like a senior engineer
-- **Conversation starters:** add these in — they're the suggested prompts that appear when someone opens the GPT
+- **Instructions:** this is the main bit — it tells the GPT how to think and respond. 
 
-Take a couple of minutes to fill those in. Let me know if anything looks off.
 
+- **Conversation starters:**  — they're the suggested prompts that will appear when we starts a new chat with our custom GPT
+
+Take a min to fill those in.
 ---
 
 ## Step 5 — Upload Knowledge Files
 
 
-This is one of my favourite parts. You can upload your own documents as a knowledge base for the GPT to reference.
+We can upload our own documents as a knowledge base for the GPT to reference.
 
-In the guide, there's a sample file you can download — it's a sample overview document. Go to the hand-on guide. Under step 5, click on the download file button.
+In the guide, there's a sample file you can download. After that you can upload that sample document
 
 This is what makes a Custom GPT really powerful — it can answer questions based on your actual internal documents, not just general knowledge.
 
@@ -77,33 +75,23 @@ Scroll down to the Capabilities section. Make sure these are turn on
 
 click **Create** in the upper-right corner.
 
-Give it a moment. Is everyone seeing the GPT get created successfully?
 
 ---
 
 ## Step 8 — Test It
 
+You can see your custom gpt under **MyGPT** option
+Now let's test it will some of the sample test prompts. You can copy them from the hands-on guide
 
-Now let's test it. The guide has few test prompts — try at least one or two of them:
-
-1. **Architecture review** — paste in the simple architecture and see how it evaluates it
-2. **Performance troubleshooting** — describe a load test issue and see what it investigates
-3. **Service selection** — ask whether to use ECS Fargate or Lambda
-4. **Knowledge test** — ask "What is GCC+?" — this one tests whether the GPT is actually using your uploaded document
-
-The last one is worth paying attention to. If the GPT can answer it correctly, that means it's drawing from the file you uploaded, not just hallucinating.
-
-Take a few minutes to try the prompts and see the responses. Any questions on what you're seeing?
 
 ---
 
 ## Wrap-up
 
-So that's Custom GPTs — you've now got a specialised assistant that behaves like a senior AWS architect. You built it, configured it, gave it your own documents, and tested it.
+That's all about custom GPT,
+The same pattern works for other domain as well: for example, HR policy assistant,  data governance advisor so on and so forth.
 
-The same pattern works for anything: HR policy assistant, tender review GPT, data governance advisor — you name it.
-
-Let's move on to use case five.
+Now i will pass the time to Liang Tai, he will explain how Skills help him in his day to day work as a UI/UX designer. After that if we have time, we will continue our hands-on for the Skills.
 
 ---
 

@@ -6,11 +6,9 @@
 
 Alright, use case five — **Skills**.
 
-This is where we start thinking beyond just yourself. A Skill is basically a reusable workflow or prompt that you can save, share with your team, and anyone can run it consistently. No one needs to write the prompt from scratch — you define the standard once, everyone uses the same thing.
+Like what Liang Tai discuss just now, Skill is basically a reusable workflow  that you can save, share with your team, and anyone can run it consistently. No one needs to write the prompt from scratch — you define the standard once, everyone uses the same thing.
 
-We're going to build a skill that analyses SingStat MCP query logs and generates a proper monthly usage report — in DOCX and PDF. And we're going to build it through chat, which is the more conversational way of doing it.
-
-This one has three parts: we'll create the skill, share it, and then install a shared one that's already been set up.
+We're going to build a skill for analysing csv files to generate a report for us.
 
 ---
 
