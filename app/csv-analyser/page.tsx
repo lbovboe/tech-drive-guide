@@ -1,11 +1,11 @@
-import { PageHeader } from '@/components/PageHeader'
-import { StepCard } from '@/components/StepCard'
-import { PromptBlock } from '@/components/PromptBlock'
-import { GuideImage } from '@/components/GuideImage'
-import { SectionNav } from '@/components/SectionNav'
+import { PageHeader } from "@/components/PageHeader";
+import { StepCard } from "@/components/StepCard";
+import { PromptBlock } from "@/components/PromptBlock";
+import { GuideImage } from "@/components/GuideImage";
+import { SectionNav } from "@/components/SectionNav";
 
-const IMG = '/Tech_Test_Drive_Extracted_Images'
-const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? ''
+const IMG = "/Tech_Test_Drive_Extracted_Images";
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export default function CsvAnalyserPage() {
   return (
@@ -25,11 +25,14 @@ export default function CsvAnalyserPage() {
       <StepCard number={1} title="Open Skills">
         <ol className="list-decimal list-inside space-y-1.5 text-sm">
           <li>
-            Select <strong style={{ color: 'var(--text-primary)' }}>Plugins</strong> from the left
-            sidebar.
+            Select{" "}
+            <strong style={{ color: "var(--text-primary)" }}>Plugins</strong>{" "}
+            from the left sidebar.
           </li>
           <li>
-            Open the <strong style={{ color: 'var(--text-primary)' }}>Skills</strong> tab.
+            Open the{" "}
+            <strong style={{ color: "var(--text-primary)" }}>Skills</strong>{" "}
+            tab.
           </li>
         </ol>
         <GuideImage
@@ -44,10 +47,15 @@ export default function CsvAnalyserPage() {
       <StepCard number={2} title="Start creating the skill">
         <ol className="list-decimal list-inside space-y-1.5 text-sm">
           <li>
-            Click the <strong style={{ color: 'var(--text-primary)' }}>+</strong> button.
+            Click the{" "}
+            <strong style={{ color: "var(--text-primary)" }}>+</strong> button.
           </li>
           <li>
-            Select <strong style={{ color: 'var(--text-primary)' }}>Create with chat</strong>.
+            Select{" "}
+            <strong style={{ color: "var(--text-primary)" }}>
+              Create with chat
+            </strong>
+            .
           </li>
         </ol>
         <GuideImage
@@ -61,18 +69,42 @@ export default function CsvAnalyserPage() {
 
       <StepCard number={3} title="Add the skill requirements">
         <p className="text-sm mb-3">
-          Send the default prompt that is automatically generated — it will then ask what you want to create. Enter the following prompt:
+          Send the default prompt that is automatically generated — it will then
+          ask what you want to create. Enter the following prompt:
         </p>
         <div
           className="mb-4 rounded-lg px-4 py-3 text-sm"
-          style={{ background: 'var(--bg-surface-2)', border: '1px solid var(--border)' }}
+          style={{
+            background: "var(--bg-surface-2)",
+            border: "1px solid var(--border)",
+          }}
         >
-          <span className="font-semibold" style={{ color: 'var(--text-primary)' }}>Before sending the requirements: </span>
-          <span style={{ color: 'var(--text-secondary)' }}>
-            Replace <code className="rounded px-1 py-0.5 text-xs font-mono" style={{ background: 'var(--bg-surface)', border: '1px solid var(--border)' }}>[your name]</code> with your own name or initials (e.g. <strong style={{ color: 'var(--text-primary)' }}>singstat-csv-analyser-john</strong>). This ensures your skill has a unique name and does not conflict with others in the shared workspace.
+          <span
+            className="font-semibold"
+            style={{ color: "var(--text-primary)" }}
+          >
+            Before sending the requirements:{" "}
+          </span>
+          <span style={{ color: "var(--text-secondary)" }}>
+            Replace{" "}
+            <code
+              className="rounded px-1 py-0.5 text-xs font-mono"
+              style={{
+                background: "var(--bg-surface)",
+                border: "1px solid var(--border)",
+              }}
+            >
+              [your name]
+            </code>{" "}
+            with your own name or initials (e.g.{" "}
+            <strong style={{ color: "var(--text-primary)" }}>
+              csv-analyser-john
+            </strong>
+            ). This ensures your skill has a unique name and does not conflict
+            with others in the shared workspace.
           </span>
         </div>
-        <PromptBlock>{`Create a skill called singstat-csv-analyser-[your name]. It should analyse uploaded CSV files only — do not use external connectors or data sources. The CSV contains query-log data with the columns sessionid, query, responsetime, confidencescore and createddate. Proceed with creation immediately — do not ask any follow-up questions.
+        <PromptBlock>{`Create a skill called csv-analyser-[your name]. It should analyse uploaded CSV files only — do not use external connectors or data sources. The CSV contains query-log data with the columns sessionid, query, responsetime, confidencescore and createddate. Proceed with creation immediately — do not ask any follow-up questions.
 
 Generate a monthly usage report in both DOCX and PDF format. Do not create a Markdown deliverable.
 
@@ -106,11 +138,13 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
 
       <StepCard number={4} title="Install the skill">
         <p className="text-sm mb-3">
-          Wait approximately three to five minutes for the skill to be generated.
+          Wait approximately three to five minutes for the skill to be
+          generated.
         </p>
         <p className="text-sm">
-          Click <strong style={{ color: 'var(--text-primary)' }}>Install</strong> when the skill
-          card appears.
+          Click{" "}
+          <strong style={{ color: "var(--text-primary)" }}>Install</strong> when
+          the skill card appears.
         </p>
         <GuideImage
           src={`${IMG}/12_skill_install_card_1019x214.png`}
@@ -123,7 +157,10 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
 
       <StepCard number={5} title="Confirm installation">
         <p className="text-sm mb-3">
-          Return to: <strong style={{ color: 'var(--text-primary)' }}>Plugins → Skills</strong>
+          Return to:{" "}
+          <strong style={{ color: "var(--text-primary)" }}>
+            Plugins → Skills
+          </strong>
         </p>
         <p className="text-sm">
           Confirm that the CSV analyser appears under installed skills.
@@ -141,7 +178,8 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
         <ol className="list-decimal list-inside space-y-1.5 text-sm mb-4">
           <li>Click the three-dot menu next to the skill.</li>
           <li>
-            Select <strong style={{ color: 'var(--text-primary)' }}>Chat</strong>.
+            Select{" "}
+            <strong style={{ color: "var(--text-primary)" }}>Chat</strong>.
           </li>
         </ol>
         <GuideImage
@@ -153,15 +191,20 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
         />
         <div
           className="mt-4 rounded-lg p-4 text-sm space-y-2"
-          style={{ background: 'var(--bg-surface-2)', border: '1px solid var(--border)' }}
+          style={{
+            background: "var(--bg-surface-2)",
+            border: "1px solid var(--border)",
+          }}
         >
-          <p className="font-medium" style={{ color: 'var(--text-primary)' }}>
+          <p className="font-medium" style={{ color: "var(--text-primary)" }}>
             Skill not detected after installing?
           </p>
-          <p style={{ color: 'var(--text-secondary)' }}>
-            This is a known issue in the current version. Try opening the skill editor, make any
-            minor change, and click <strong style={{ color: 'var(--text-primary)' }}>Save</strong>.
-            If the skill still does not detected inside the chat, close the browser completely and log back in again.
+          <p style={{ color: "var(--text-secondary)" }}>
+            This is a known issue in the current version. Try opening the skill
+            editor, make any minor change, and click{" "}
+            <strong style={{ color: "var(--text-primary)" }}>Save</strong>. If
+            the skill still does not detected inside the chat, close the browser
+            completely and log back in again.
           </p>
         </div>
       </StepCard>
@@ -172,18 +215,26 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
         {/* Option A */}
         <div
           className="rounded-xl p-4 mb-4 space-y-3"
-          style={{ background: 'var(--bg-surface-2)', border: '1px solid var(--border)' }}
+          style={{
+            background: "var(--bg-surface-2)",
+            border: "1px solid var(--border)",
+          }}
         >
-          <p className="text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
-            Option A — Upload the sample CSV and generate a report
+          <p
+            className="text-sm font-semibold"
+            style={{ color: "var(--text-primary)" }}
+          >
+            Upload the sample CSV and generate a report
           </p>
-          <ol className="list-decimal list-inside space-y-2 text-sm" style={{ color: 'var(--text-secondary)' }}>
+          <ol
+            className="list-decimal list-inside space-y-2 text-sm"
+            style={{ color: "var(--text-secondary)" }}
+          >
             <li>
-              Download the sample CSV file below, then attach it in the skill chat.
+              Download the sample CSV file below, then attach it in the skill
+              chat.
             </li>
-            <li>
-              Paste the following prompt:
-            </li>
+            <li>Paste the following prompt:</li>
           </ol>
           <PromptBlock>Generate the report base on the csv</PromptBlock>
           <a
@@ -191,12 +242,22 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
             download="mcp_query_log_July.csv"
             className="inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-opacity hover:opacity-80"
             style={{
-              background: 'var(--accent)',
-              color: '#fff',
-              textDecoration: 'none',
+              background: "var(--accent)",
+              color: "#fff",
+              textDecoration: "none",
             }}
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
               <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
               <polyline points="7 10 12 15 17 10" />
               <line x1="12" y1="15" x2="12" y2="3" />
@@ -206,15 +267,23 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
         </div>
 
         {/* Option B */}
-        <div
+        {/* <div
           className="rounded-xl p-4 space-y-3"
-          style={{ background: 'var(--bg-surface-2)', border: '1px solid var(--border)' }}
+          style={{
+            background: "var(--bg-surface-2)",
+            border: "1px solid var(--border)",
+          }}
         >
-          <p className="text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
+          <p
+            className="text-sm font-semibold"
+            style={{ color: "var(--text-primary)" }}
+          >
             Option B — Use the auto-generated default prompt
           </p>
-          <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
-            Use the automatically generated example prompt that appears in the chat. It will generate a sample CSV and produce a report without needing to upload a file.
+          <p className="text-sm" style={{ color: "var(--text-secondary)" }}>
+            Use the automatically generated example prompt that appears in the
+            chat. It will generate a sample CSV and produce a report without
+            needing to upload a file.
           </p>
         </div>
 
@@ -224,11 +293,13 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
           caption="Figure 16: Example of the automatically generated skill-testing prompt."
           width={1051}
           height={417}
-        />
+        /> */}
       </StepCard>
 
       <StepCard number={8} title="Download the report">
-        <p className="text-sm mb-3">Wait approximately five minutes for processing.</p>
+        <p className="text-sm mb-3">
+          Wait approximately five minutes for processing.
+        </p>
         <p className="text-sm mb-2">Download the generated:</p>
         <ul className="list-disc list-inside space-y-1 text-sm">
           <li>DOCX report</li>
@@ -253,7 +324,8 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
         <ol className="list-decimal list-inside space-y-1.5 text-sm">
           <li>Open the three-dot menu beside the skill.</li>
           <li>
-            Select <strong style={{ color: 'var(--text-primary)' }}>Share</strong>.
+            Select{" "}
+            <strong style={{ color: "var(--text-primary)" }}>Share</strong>.
           </li>
         </ol>
         <GuideImage
@@ -267,10 +339,15 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
 
       <StepCard number={10} title="Set access permissions">
         <p className="text-sm mb-2">
-          Under <strong style={{ color: 'var(--text-primary)' }}>Who has access</strong>, select the
-          appropriate organisation-wide option, such as:
+          Under{" "}
+          <strong style={{ color: "var(--text-primary)" }}>
+            Who has access
+          </strong>
+          , select the appropriate organisation-wide option, such as:
         </p>
-        <PromptBlock label="Access setting">Anyone at SG WOG ChatGPT</PromptBlock>
+        <PromptBlock label="Access setting">
+          Anyone at SG WOG ChatGPT
+        </PromptBlock>
         <GuideImage
           src={`${IMG}/18_skill_access_permissions_802x265.png`}
           alt="Skill Access Permissions"
@@ -283,19 +360,30 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
       {/* ── Install shared skill ──────────────────────────────── */}
 
       <div className="mb-8 mt-4">
-        <SectionHeading>Part C — Install and Use the Shared Skill</SectionHeading>
+        <SectionHeading>
+          Part C — Install and Use the Shared Skill
+        </SectionHeading>
       </div>
 
       <StepCard number={11} title="Find the shared skill">
         <ol className="list-decimal list-inside space-y-1.5 text-sm">
           <li>
-            Open <strong style={{ color: 'var(--text-primary)' }}>Plugins → Skills</strong>.
+            Open{" "}
+            <strong style={{ color: "var(--text-primary)" }}>
+              Plugins → Skills
+            </strong>
+            .
           </li>
           <li>
-            Search for <strong style={{ color: 'var(--text-primary)' }}>csv</strong>.
+            Search for{" "}
+            <strong style={{ color: "var(--text-primary)" }}>csv</strong>.
           </li>
           <li>
-            Find <strong style={{ color: 'var(--text-primary)' }}>singstat-mcp-csv-analyser-td</strong>.
+            Find{" "}
+            <strong style={{ color: "var(--text-primary)" }}>
+              singstat-mcp-csv-analyser-td
+            </strong>
+            .
           </li>
         </ol>
         <GuideImage
@@ -309,8 +397,8 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
 
       <StepCard number={12} title="Install it">
         <p className="text-sm">
-          Click the <strong style={{ color: 'var(--text-primary)' }}>+</strong> button beside the
-          skill. The skill should install automatically.
+          Click the <strong style={{ color: "var(--text-primary)" }}>+</strong>{" "}
+          button beside the skill. The skill should install automatically.
         </p>
       </StepCard>
 
@@ -318,31 +406,41 @@ SingStat MCP Monthly Usage Report — <Month YYYY>`}</PromptBlock>
         <ol className="list-decimal list-inside space-y-1.5 text-sm">
           <li>Click the three-dot menu.</li>
           <li>
-            Select <strong style={{ color: 'var(--text-primary)' }}>Chat</strong>.
+            Select{" "}
+            <strong style={{ color: "var(--text-primary)" }}>Chat</strong>.
           </li>
           <li>Upload a CSV file or use the default test prompt.</li>
         </ol>
       </StepCard>
 
       <SectionNav
-        prev={{ href: '/custom-gpt', label: 'Custom GPT: Principal AWS Architect' }}
-        next={{ href: '/python-reviewer', label: 'Python Code Reviewer Skill' }}
+        prev={{
+          href: "/custom-gpt",
+          label: "Custom GPT: Principal AWS Architect",
+        }}
+        next={{ href: "/python-reviewer", label: "Python Code Reviewer Skill" }}
       />
     </div>
-  )
+  );
 }
 
 function SectionHeading({ children }: { children: React.ReactNode }) {
   return (
     <div
       className="flex items-center gap-3 rounded-xl px-4 py-3"
-      style={{ background: 'var(--bg-surface-2)', border: '1px solid var(--border)' }}
+      style={{
+        background: "var(--bg-surface-2)",
+        border: "1px solid var(--border)",
+      }}
     >
-      <div className="h-px flex-1" style={{ background: 'var(--border)' }} />
-      <span className="text-xs font-semibold uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>
+      <div className="h-px flex-1" style={{ background: "var(--border)" }} />
+      <span
+        className="text-xs font-semibold uppercase tracking-wider"
+        style={{ color: "var(--text-muted)" }}
+      >
         {children}
       </span>
-      <div className="h-px flex-1" style={{ background: 'var(--border)' }} />
+      <div className="h-px flex-1" style={{ background: "var(--border)" }} />
     </div>
-  )
+  );
 }

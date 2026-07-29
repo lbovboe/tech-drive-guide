@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Alright, use case five — **Skills**.
+Alright, let's continue with our hands-on.
 
 Like what Liang Tai discuss just now, Skill is basically a reusable workflow  that you can save, share with your team, and anyone can run it consistently. No one needs to write the prompt from scratch — you define the standard once, everyone uses the same thing.
 
@@ -19,9 +19,8 @@ We're going to build a skill for analysing csv files to generate a report for us
 ## Step 1 — Open Skills
 
 
-In ChatGPT, click on **Plugins** in the left sidebar, then open the **Skills** tab.
+On the left sidebar click on the **Plugins** and select  **Skills** tab.
 
-Can everyone see the Skills tab under Plugins? Good.
 
 ---
 
@@ -30,82 +29,52 @@ Can everyone see the Skills tab under Plugins? Good.
 
 Click the **+** button, and select **"Create with chat"**.
 
-This opens a conversation where ChatGPT will help you build the skill step by step through dialogue — you don't need to fill in a form.
+This opens a conversation where ChatGPT will help you build the skill step by step through dialogue.
 
 ---
 
 ## Step 3 — Start the Skill-Building Conversation
 
 
-In the chat, type exactly this:
-
-> *"Help me create a skill. Keep it conversational, and start by asking what the skill should do."*
-
-Send that. ChatGPT will ask you what the skill is for, and then we'll describe it in the next step.
+we will use the default prompt. Send that. 
+Then ChatGPT will ask you what the skill is for.
 
 ---
 
 ## Step 4 — Describe What the Skill Should Do
 
 
-Now, in the guide there's a detailed requirement prompt to paste in. Before you copy it — **replace `[your name]` with your actual name or initials**. This is just to make sure your skill has a unique name and doesn't clash with anyone else's in the shared workspace.
+Then Use the sample prompt that is provided inside the guide under step 3.
 
-Once you've done that, paste the requirement into the chat and send it.
+This tells the skill exactly what columns to expect, what sections the report should have, what format the output should be.
 
-This tells the skill exactly what columns to expect, what sections the report should have, what format the output should be, and how to handle edge cases. It's quite detailed — and that's intentional, because the more specific you are, the better the skill performs.
+just copy this one and paste into the chat.
 
 ---
 
 ## Step 5 — Install the Skill
 
 
-ChatGPT will take a few minutes — roughly three to five — to generate the skill. Once the skill card appears, click **Install**.
+it will take about 3-5 minutes to generate the skill. Once the skill card appears, click **Install**.
 
-While we wait, does anyone have questions about what we just described to it?
+It will look something like this, it will appear inside ur chat.
 
 ---
 
 ## Step 6 — Confirm Installation
 
 
-Once installed, go back to **Plugins → Skills** and confirm your skill appears in the installed list.
+While waiting for the skill to be generated on ur machine, i will go through the steps on how to see other people's skill and how to install and use them.
 
-Can everyone see their skill there?
+These are the list of Skill created by WOG users that under the same workspace.
+
+You can search specific ones using the search bar, for example i have created one previously csv analyser, you can type in **csv** and select the singstat-mcp-csv-analyser and install. It is the same csv analyser that we are currently creating. 
 
 ---
 
 ## Step 7 — Open the Skill Chat
 
-
-Click the three-dot menu next to your skill and select **Chat**.
-
-> **Note:** If you install the skill but it's not being detected in the chat, don't panic — this is a known issue. Try opening the skill editor, make a minor change, hit Save. If it still doesn't work, close the browser fully and log back in.
-
----
-
-## Step 8 — Run the Skill
-
-
-There are two ways to test this:
-
-**Option A** — Download the sample CSV file from the guide, attach it in the skill chat, and send: *"Generate the report based on the csv."*
-
-**Option B** — Use the auto-generated default prompt that appears in the chat. It will create a sample CSV and generate a report without you needing to upload anything.
-
-Either way works — try whichever is quicker for you right now.
-
----
-
-## Step 9 — Download the Report
-
-
-Give it about five minutes to process. Once it's done, you'll see download links for both a DOCX and PDF version of the report.
-
-Download both and have a look. It should have all the sections: executive summary, usage stats, query analysis, response times, confidence scores, and recommendations — all formatted and ready to share.
-
-Is everyone getting the report? Let me know if anything looks off.
-
----
+We can start the chat and download the csv from Step 7. Attach the csv into the chat and ask chatgpt to generate a report base on that.
 
 ## PART B — Share the Skill
 
@@ -126,29 +95,7 @@ Under "Who has access", select the organisation-wide option — something like *
 That's it. Your skill is now discoverable and usable by anyone in the organisation.
 
 ---
-
-## PART C — Install and Use a Shared Skill
-
 ---
-
-## Step 12 — Find the Shared Skill
-
-
-Now let's flip to the other side. Someone's already shared a version of this skill — so instead of building it, you're installing someone else's.
-
-Go to **Plugins → Skills**, search for **"csv"**, and find **"singstat-mcp-csv-analyser-td"**.
-
----
-
-## Step 13 & 14 — Install and Open It
-
-
-Click the **+** button to install it. Then open it via the three-dot menu → Chat, and try uploading a CSV or using the default prompt.
-
-This shows how skills can be a team asset — one person builds it, everyone benefits.
-
----
-
 ## Wrap-up
 
 That's use case five. You've built a skill, run it, shared it, and installed a shared one. That's the full lifecycle.
