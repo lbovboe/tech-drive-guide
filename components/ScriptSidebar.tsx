@@ -6,10 +6,11 @@ import { usePathname } from 'next/navigation'
 const scripts = [
   { href: '/script/intro', label: 'Introduction' },
   { href: '/script/01-daily-tech-news', label: '1 — Daily Tech News' },
-  { href: '/script/02-custom-gpt', label: '2 — Custom GPT' },
-  { href: '/script/03-csv-analyser', label: '3 — CSV Analyser' },
-  { href: '/script/04-python-reviewer', label: '4 — Python Reviewer' },
-  { href: '/script/05-sharepoint', label: '5 — SharePoint' },
+  { href: '/script/02-sharepoint', label: '2 — SharePoint' },
+  { href: '/script/03-ai-work-organizer', label: '3 — AI Work Organizer' },
+  { href: '/script/04-custom-gpt', label: '4 — Custom GPT' },
+  { href: '/script/05-csv-analyser', label: '5 — CSV Analyser' },
+  { href: '/script/06-python-reviewer', label: '6 — Python Reviewer' },
 ]
 
 export function ScriptSidebar() {

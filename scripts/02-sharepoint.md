@@ -1,12 +1,11 @@
-# Presentation Script — Use Case 5: SharePoint Access (Plugin)
+# Presentation Script — Use Case 2: SharePoint Access (Plugin)
 
 ---
 
 ## Introduction
 
-Last one — **SharePoint**.
+Alright, use case two — **SharePoint**.
 
-This one's a bit different from what we've done so far. It's not about building something from scratch — it's about connecting ChatGPT to something you already use every day. SharePoint.
 
 The idea is simple: once you've installed the plugin, you can ask ChatGPT to find files, retrieve documents, or answer questions based on content in your SharePoint — without having to open SharePoint, search through folders, or copy and paste anything into the chat.
 
@@ -16,7 +15,7 @@ Let's set it up.
 
 ## Step 1 — Open the Plugins Section
 
-> **[Check guide: Use Case 5, Step 1]**
+> **[Check guide: Use Case 2, Step 1]**
 
 In ChatGPT, click **Plugins** in the left sidebar.
 
@@ -28,7 +27,7 @@ Can everyone see the Plugins section? Good.
 
 ## Step 2 — Search for and Install SharePoint
 
-> **[Check guide: Use Case 5, Step 2]**
+> **[Check guide: Use Case 2, Step 2]**
 
 In the plugin search bar, type **"SharePoint"**.
 
@@ -42,7 +41,7 @@ Everyone seeing that change once it's installed?
 
 ## Step 3 — Start a SharePoint Chat
 
-> **[Check guide: Use Case 5, Step 3]**
+> **[Check guide: Use Case 2, Step 3]**
 
 Click the three-dot menu beside the SharePoint plugin and select **Chat**.
 
@@ -52,7 +51,7 @@ This opens a new conversation that's connected to your SharePoint. Any question 
 
 ## Step 4 — Using It From a Normal Chat
 
-> **[Check guide: Use Case 5, Step 4]**
+> **[Check guide: Use Case 2, Step 4]**
 
 Now here's something useful to know — you don't have to go to Plugins every time you want to use SharePoint.
 
@@ -64,7 +63,7 @@ So it's not a separate experience — it integrates into your normal ChatGPT wor
 
 ## Step 5 — Ask SharePoint Questions
 
-> **[Check guide: Use Case 5, Step 5]**
+> **[Check guide: Use Case 2, Step 5]**
 
 Now let's try it. In the chat, ask something like:
 
@@ -80,27 +79,10 @@ Is everyone getting a response from SharePoint? If you're seeing an authorisatio
 
 ## Wrap-up
 
-And that's use case five — and that's all five of them done.
+And that's use case two — SharePoint plugin. As you can see, ChatGPT isn't just a standalone tool anymore. It can connect into the systems you already use and act as a single interface for getting things done across all of them.
 
-The SharePoint plugin is a good one to end on because it shows that ChatGPT isn't just a standalone tool anymore. It can connect into the systems you already use and act as a single interface for getting things done across all of them.
-
----
-
-## Session Close
-
-So just to recap what we've gone through today:
-
-- A **scheduled task** that runs automatically every morning
-- A **Custom GPT** that behaves like a domain expert and knows your documents
-- Two **Skills** — one built through chat, one through the editor — that your whole team can share and reuse
-- A **SharePoint plugin** that connects ChatGPT to your existing file storage
-
-These aren't hypothetical use cases — they're things you can set up today and start using straight away.
-
-If there's anything you want to revisit, the guide is still open on your screen — all the steps are there. And if you run into any issues setting things up after this session, feel free to reach out.
-
-Thanks everyone — appreciate your time today.
+Let's move on to use case three.
 
 ---
 
-*[End of presentation]*
+*[Proceed to: `03-ai-work-organizer.md`]*

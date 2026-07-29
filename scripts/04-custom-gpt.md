@@ -1,10 +1,10 @@
-# Presentation Script — Use Case 2: Principal AWS Architect (Custom GPT)
+# Presentation Script — Use Case 4: Principal AWS Architect (Custom GPT)
 
 ---
 
 ## Introduction
 
-okay, lets move on to our second use case, we will be building the **Custom GPTs**.
+okay, lets move on to our fourth use case, we will be building the **Custom GPTs**.
 
  A Custom GPT lets you give ChatGPT a very specific role, a persona, a set of instructions, and even your own knowledge base. So instead of starting every conversation from scratch and re-explaining the context, you build it once and it's always there.
 
@@ -13,7 +13,7 @@ okay, lets move on to our second use case, we will be building the **Custom GPTs
 
 ## Step 1 — Open the GPT Section
 
-> **[Check guide: Use Case 2, Step 1]**
+> **[Check guide: Use Case 4, Step 1]**
 
 Lets click on the GPTs option on the left sidebar.
 
@@ -22,7 +22,7 @@ Lets click on the GPTs option on the left sidebar.
 
 ## Step 2 — Create a New GPT
 
-> **[Check guide: Use Case 2, Step 2]**
+> **[Check guide: Use Case 4, Step 2]**
 
 Then on the top right hand corner , Click the **"+ Create"** button.
 
@@ -32,7 +32,7 @@ You'll see there are two ways building — one is through a chat where you just 
 
 ## Step 3 — Open the Configure Tab
 
-> **[Check guide: Use Case 2, Step 3]**
+> **[Check guide: Use Case 4, Step 3]**
 
 Click on the **Configure** tab. You should see this configure form for us to fill in.
 
@@ -40,7 +40,7 @@ Click on the **Configure** tab. You should see this configure form for us to fil
 
 ## Step 4 — Fill in the GPT Details
 
-> **[Check guide: Use Case 2, Step 4]**
+> **[Check guide: Use Case 4, Step 4]**
 
 Now let's fill this in. The guide has the exact values to use — copy them across one by one.
 
@@ -55,7 +55,7 @@ Take a couple of minutes to fill those in. Let me know if anything looks off.
 
 ## Step 5 — Upload Knowledge Files
 
-> **[Check guide: Use Case 2, Step 5]**
+> **[Check guide: Use Case 4, Step 5]**
 
 This is one of my favourite parts. You can upload your own documents as a knowledge base for the GPT to reference.
 
@@ -67,7 +67,7 @@ This is what makes a Custom GPT really powerful — it can answer questions base
 
 ## Step 6 — Enable Capabilities
 
-> **[Check guide: Use Case 2, Step 6]**
+> **[Check guide: Use Case 4, Step 6]**
 
 Scroll down to the Capabilities section. Make sure these are turn on
 
@@ -80,7 +80,7 @@ Scroll down to the Capabilities section. Make sure these are turn on
 
 ## Step 7 — Create the GPT
 
-> **[Check guide: Use Case 2, Step 7]**
+> **[Check guide: Use Case 4, Step 7]**
 
 click **Create** in the upper-right corner.
 
@@ -90,7 +90,7 @@ Give it a moment. Is everyone seeing the GPT get created successfully?
 
 ## Step 8 — Test It
 
-> **[Check guide: Use Case 2, Step 8]**
+> **[Check guide: Use Case 4, Step 8]**
 
 Now let's test it. The guide has few test prompts — try at least one or two of them:
 
@@ -111,8 +111,8 @@ So that's Custom GPTs — you've now got a specialised assistant that behaves li
 
 The same pattern works for anything: HR policy assistant, tender review GPT, data governance advisor — you name it.
 
-Let's move on to use case three.
+Let's move on to use case five.
 
 ---
 
-*[Proceed to: `03-csv-analyser.md`]*
+*[Proceed to: `05-csv-analyser.md`]*

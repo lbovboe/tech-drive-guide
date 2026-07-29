@@ -1,10 +1,10 @@
-# Presentation Script — Use Case 3: CSV Analyser Skill (Creating a Skill via Chat)
+# Presentation Script — Use Case 5: CSV Analyser Skill (Creating a Skill via Chat)
 
 ---
 
 ## Introduction
 
-Alright, use case three — **Skills**.
+Alright, use case five — **Skills**.
 
 This is where we start thinking beyond just yourself. A Skill is basically a reusable workflow or prompt that you can save, share with your team, and anyone can run it consistently. No one needs to write the prompt from scratch — you define the standard once, everyone uses the same thing.
 
@@ -20,7 +20,7 @@ This one has three parts: we'll create the skill, share it, and then install a s
 
 ## Step 1 — Open Skills
 
-> **[Check guide: Use Case 3, Step 1]**
+> **[Check guide: Use Case 5, Step 1]**
 
 In ChatGPT, click on **Plugins** in the left sidebar, then open the **Skills** tab.
 
@@ -30,7 +30,7 @@ Can everyone see the Skills tab under Plugins? Good.
 
 ## Step 2 — Start Creating the Skill
 
-> **[Check guide: Use Case 3, Step 2]**
+> **[Check guide: Use Case 5, Step 2]**
 
 Click the **+** button, and select **"Create with chat"**.
 
@@ -40,7 +40,7 @@ This opens a conversation where ChatGPT will help you build the skill step by st
 
 ## Step 3 — Start the Skill-Building Conversation
 
-> **[Check guide: Use Case 3, Step 3]**
+> **[Check guide: Use Case 5, Step 3]**
 
 In the chat, type exactly this:
 
@@ -52,7 +52,7 @@ Send that. ChatGPT will ask you what the skill is for, and then we'll describe i
 
 ## Step 4 — Describe What the Skill Should Do
 
-> **[Check guide: Use Case 3, Step 4]**
+> **[Check guide: Use Case 5, Step 4]**
 
 Now, in the guide there's a detailed requirement prompt to paste in. Before you copy it — **replace `[your name]` with your actual name or initials**. This is just to make sure your skill has a unique name and doesn't clash with anyone else's in the shared workspace.
 
@@ -64,7 +64,7 @@ This tells the skill exactly what columns to expect, what sections the report sh
 
 ## Step 5 — Install the Skill
 
-> **[Check guide: Use Case 3, Step 5]**
+> **[Check guide: Use Case 5, Step 5]**
 
 ChatGPT will take a few minutes — roughly three to five — to generate the skill. Once the skill card appears, click **Install**.
 
@@ -74,7 +74,7 @@ While we wait, does anyone have questions about what we just described to it?
 
 ## Step 6 — Confirm Installation
 
-> **[Check guide: Use Case 3, Step 6]**
+> **[Check guide: Use Case 5, Step 6]**
 
 Once installed, go back to **Plugins → Skills** and confirm your skill appears in the installed list.
 
@@ -84,7 +84,7 @@ Can everyone see their skill there?
 
 ## Step 7 — Open the Skill Chat
 
-> **[Check guide: Use Case 3, Step 7]**
+> **[Check guide: Use Case 5, Step 7]**
 
 Click the three-dot menu next to your skill and select **Chat**.
 
@@ -94,7 +94,7 @@ Click the three-dot menu next to your skill and select **Chat**.
 
 ## Step 8 — Run the Skill
 
-> **[Check guide: Use Case 3, Step 8]**
+> **[Check guide: Use Case 5, Step 8]**
 
 There are two ways to test this:
 
@@ -108,7 +108,7 @@ Either way works — try whichever is quicker for you right now.
 
 ## Step 9 — Download the Report
 
-> **[Check guide: Use Case 3, Step 9]**
+> **[Check guide: Use Case 5, Step 9]**
 
 Give it about five minutes to process. Once it's done, you'll see download links for both a DOCX and PDF version of the report.
 
@@ -124,7 +124,7 @@ Is everyone getting the report? Let me know if anything looks off.
 
 ## Step 10 — Open Sharing Options
 
-> **[Check guide: Use Case 3, Step 10]**
+> **[Check guide: Use Case 5, Step 10]**
 
 Now let's say you want your team to use this same skill. Click the three-dot menu next to your skill and select **Share**.
 
@@ -132,7 +132,7 @@ Now let's say you want your team to use this same skill. Click the three-dot men
 
 ## Step 11 — Set Access Permissions
 
-> **[Check guide: Use Case 3, Step 11]**
+> **[Check guide: Use Case 5, Step 11]**
 
 Under "Who has access", select the organisation-wide option — something like **"Anyone at SG WOG ChatGPT"**.
 
@@ -146,7 +146,7 @@ That's it. Your skill is now discoverable and usable by anyone in the organisati
 
 ## Step 12 — Find the Shared Skill
 
-> **[Check guide: Use Case 3, Step 12]**
+> **[Check guide: Use Case 5, Step 12]**
 
 Now let's flip to the other side. Someone's already shared a version of this skill — so instead of building it, you're installing someone else's.
 
@@ -156,7 +156,7 @@ Go to **Plugins → Skills**, search for **"csv"**, and find **"singstat-mcp-csv
 
 ## Step 13 & 14 — Install and Open It
 
-> **[Check guide: Use Case 3, Steps 13 & 14]**
+> **[Check guide: Use Case 5, Steps 13 & 14]**
 
 Click the **+** button to install it. Then open it via the three-dot menu → Chat, and try uploading a CSV or using the default prompt.
 
@@ -166,7 +166,7 @@ This shows how skills can be a team asset — one person builds it, everyone ben
 
 ## Wrap-up
 
-That's use case three. You've built a skill, run it, shared it, and installed a shared one. That's the full lifecycle.
+That's use case five. You've built a skill, run it, shared it, and installed a shared one. That's the full lifecycle.
 
 The key takeaway here is the sharing part — this is how you get consistency across your division without having to train everyone from scratch.
 
@@ -174,4 +174,4 @@ Let's move on.
 
 ---
 
-*[Proceed to: `04-python-reviewer.md`]*
+*[Proceed to: `06-python-reviewer.md`]*

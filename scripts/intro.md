@@ -8,27 +8,29 @@ Alright, before we get started — can everyone go to this URL?
 
 > **[URL here]**
 
-Go to your browser and enter tinyurl.com/tdjul26. Let me know if you are able to access it. You should be able to see a page with today's hand-on guide.
+Go to your browser and enter tinyurl.com/tdjul26. Let me know if you are able to access it. You should be able to see a page with today's hand-on guide. It includes all the steps for creating different use cases.
 
 ---
 
 ## Opening
 
-I guess everyone is able to access the page. I'll be walking you through these **five use cases** that i personally been using with ChatGPT — they are genuinely useful for our day-to-day work. 
+I guess everyone is able to access the page. I'll be walking you through these **six use cases** that i personally been using with ChatGPT — they are genuinely useful for our day-to-day work.
 
-the first one we will be building a **Scheduler** for Daily Tech News, it will automatically searches and pulls the important technology news every morning, so we don't have to search for it ourselves
+The first one we will be building a **Scheduler** for Daily Tech News, it will automatically searches and pulls the important technology news every morning, so we don't have to search for it ourselves.
 
-Next, we will be building a **Custom GPT**. it behaves like a specialist instead of a general assistant so we don;t have to re-explain things every time. 
-We'll build an AWS Architect Specialist version, but the same idea works for any domain your team needs an expert on.
+Next, we will connect our ChatGPT to **SharePoint** using a plugin, which can search and summarise information straight from our SharePoint.
 
-After that, we'll look at **Skills** — It is like reusable workflows . We'll build a **CSV Analyzer** using the chat, it will analyses query logs and generates reports in a consistent format every time; 
-Also we will build a **Code Reviewer** using editor feature, it will review our code based on the coding standards that we defined.Ensure that every team member following the same coding standard
+After that, we will build the **AI Work Organizer** — this combines the Outlook Calendar and Email plugins with a scheduled task to generate a weekly work summary plan for us every morning, or every week depends on ur preference, it covers your meetings, follow up emails, and suggest the priorities for us.
 
-And last but not least, we will connect our ChatGPT to **SharePoint** using plugin, which can search and summarise information straight from our SharePoint files.
+Then we will be building a **Custom GPT**. It behaves like a specialist instead of a general assistant so we don't have to re-explain things every time. We'll build an AWS Architect Specialist version, but the same idea works for any domain your team needs an expert on.
+
+Finally, we'll look at **Skills** — they are like reusable workflows. We'll build a **CSV Analyser** using the chat, it will analyse csv file and generate reports in a consistent format every time. We'll also build a **Python Code Reviewer** using the skill editor, it will review our code based on the coding standards that we defined — so it ensure that every team member follows the same coding standard.
 
 By the end of this session, you will see how each one works, and hopefully walked away with at least one or two things you can start using straight away. 
 
-Now, please login to your ChatGPt and we will start with our hands-on. Please let us know if u facing any issue login. Maka and Jing Kiat will be walking around to assist u guys.
+Now, please login to your ChatGPt and we will start with our hands-on. Please let us know if u facing any issue login. We will be walking around to assist u guys.
+
+Once you're logged in, one quick thing to check — go to **Settings**, then head to the **Usage** section to see your remaining credit. If you find you've used up your limit, no worries. The guide covers all the steps, so you can still follow along with us today and test it out yourself once your credits reset on 1st August. Either way, we'd love everyone to stay engaged throughout the session. and some of the use cases might not need credit to set up.
 
 
 
