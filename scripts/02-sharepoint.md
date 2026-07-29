@@ -4,12 +4,7 @@
 
 ## Introduction
 
-Alright, use case two — **SharePoint**.
 
-
-The idea is simple: once you've installed the plugin, you can ask ChatGPT to find files, retrieve documents, or answer questions based on content in your SharePoint — without having to open SharePoint, search through folders, or copy and paste anything into the chat.
-
-Let's set it up.
 
 ---
 
@@ -17,11 +12,8 @@ Let's set it up.
 
 > **[Check guide: Use Case 2, Step 1]**
 
-In ChatGPT, click **Plugins** in the left sidebar.
+Go to the left side bar again, click the **Plugins** option.
 
-You should now be on the Plugins page. This is where you can browse and install integrations — SharePoint is one of them.
-
-Can everyone see the Plugins section? Good.
 
 ---
 
@@ -31,11 +23,9 @@ Can everyone see the Plugins section? Good.
 
 In the plugin search bar, type **"SharePoint"**.
 
-Find the SharePoint plugin in the results and click the **+** button beside it to install it.
+click the **+** button beside the sharepoint plugin.
 
-Once it's installed, the **+** button will change to a three-dot **…** menu — that's how you'll know it's gone in successfully.
-
-Everyone seeing that change once it's installed?
+Once it's installed, it will change to a three-dot **…** menu 
 
 ---
 
@@ -43,9 +33,9 @@ Everyone seeing that change once it's installed?
 
 > **[Check guide: Use Case 2, Step 3]**
 
-Click the three-dot menu beside the SharePoint plugin and select **Chat**.
 
-This opens a new conversation that's connected to your SharePoint. Any question you ask here will have access to the files your account is authorised to view.
+We can start using by Clicking the three-dot menu beside the SharePoint plugin and select **Chat** option.
+
 
 ---
 
@@ -53,11 +43,8 @@ This opens a new conversation that's connected to your SharePoint. Any question 
 
 > **[Check guide: Use Case 2, Step 4]**
 
-Now here's something useful to know — you don't have to go to Plugins every time you want to use SharePoint.
+We can also use the normal new chat, click the **+** button beside the message box, and select SharePoint from the list of available tools. 
 
-After installing the plugin, you can just start a new ChatGPT conversation, click the **+** button beside the message box, and select SharePoint from the list of available tools. It's always there once installed.
-
-So it's not a separate experience — it integrates into your normal ChatGPT workflow.
 
 ---
 
@@ -65,23 +52,21 @@ So it's not a separate experience — it integrates into your normal ChatGPT wor
 
 > **[Check guide: Use Case 2, Step 5]**
 
-Now let's try it. In the chat, ask something like:
+Now u all can try it out. In the chat, we can ask something like:
 
 > *"What is my latest file?"*
+Or u can ask it to search any file that's inside ur sharepoint
 
-ChatGPT will search through the SharePoint files your account can access and return the most relevant result.
+ChatGPT will look through the SharePoint and return the most relevant result. You can also ask it to summarized the file content or do analysis base on the file that is being retrieve.
 
-Try it out — you can ask for recent documents, search by topic, or ask questions based on content inside your files.
-
-Is everyone getting a response from SharePoint? If you're seeing an authorisation prompt, go through the sign-in — it just needs to connect to your account once.
 
 ---
 
 ## Wrap-up
 
-And that's use case two — SharePoint plugin. As you can see, ChatGPT isn't just a standalone tool anymore. It can connect into the systems you already use and act as a single interface for getting things done across all of them.
+The idea is very simple: once you've installed the plugin, you can ask ChatGPT to find files, retrieve documents, or answer questions based on content in your SharePoint — without having to open SharePoint, search through folders, or copy and paste anything into the chat. Everything can be access by chatGPT directly. So it become more convenient and efficient. 
 
-Let's move on to use case three.
+
 
 ---
 

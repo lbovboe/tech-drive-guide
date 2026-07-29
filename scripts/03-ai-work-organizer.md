@@ -4,15 +4,11 @@
 
 ## Introduction
 
-Alright, use case three — the **AI Work Organizer**.
+Now lets move on to the next use case the **AI Work Organizer**.
 
-This one combines two things we've already touched on — scheduled tasks and plugins — but this time we're using them together to do something practical and personal.
+This one combines two things we've already touched on — the scheduler and plugins.
 
-The idea is simple: every morning at 9am, ChatGPT automatically checks your Outlook Calendar and Outlook Email, and produces a structured daily work summary — your meetings for the week, emails that need a response, flagged items, and your top priorities for the day. Fully automated, delivered to you every morning, no manual effort.
-
-Importantly, this task is read-only. It will not send emails, create drafts, edit calendar events, or change any Outlook flags. It only reads and summarises.
-
-Let's set it up.
+It will generate a weekly work summary plan for us every morning, or every week depends on ur preference, it covers your meetings, emails that needs to follow up, and suggest the priorities for us.
 
 ---
 
@@ -20,15 +16,12 @@ Let's set it up.
 
 > **[Check guide: Use Case 3, Step 1]**
 
-First we need to connect ChatGPT to your Outlook. Go to **Plugins** in the ChatGPT sidebar.
+Lets start with the installation for the two plugins: **Outlook Calendar** and **Outlook Email**.
 
-Search for **"Outlook"**. You should find two plugins: **Outlook Calendar** and **Outlook Email**.
+Same thing, go to the plugin page and Just search **outlook** inside the search bar.
 
-Click the **+** button beside both to install them. If prompted, complete the Microsoft sign-in or permission process.
+and install both of them.
 
-Both plugins are required — Outlook Calendar provides meeting and event information, and Outlook Email provides recent, flagged, and important email information.
-
-Is everyone seeing both plugins installed? Good.
 
 ---
 
@@ -36,9 +29,11 @@ Is everyone seeing both plugins installed? Good.
 
 > **[Check guide: Use Case 3, Step 2]**
 
-Now, click **Scheduled** in the ChatGPT sidebar.
+Once installed those plugin, Now go back to the **Scheduled** page.
 
-Click **"Schedule a task"** or enter your task request directly into the scheduled-task chat interface.
+Just like previous one, we need to tell what we want to schedule. For this case I already prepare the sample prompt. 
+Just go to the hands-on guide under step 3 copy this prompt.
+You can adjust it base on ur liking and click send.
 
 ---
 
@@ -46,15 +41,9 @@ Click **"Schedule a task"** or enter your task request directly into the schedul
 
 > **[Check guide: Use Case 3, Step 3]**
 
-In the guide, under Step 3, there's the full AI Work Organizer prompt ready to copy. This prompt tells ChatGPT:
-
-- **When to run** — every morning at 9am
-- **What calendar data to pull** — all events this week, Monday to Sunday, in Singapore time
-- **What email data to pull** — recent emails likely needing a response, older flagged items still unresolved, and high-importance emails requiring action
-- **The exact output structure** — a calendar table, an email table, and a priorities section
-- **What it must not do** — no sending emails, no creating drafts, no editing calendar events, no changing flags
-
-Go ahead and copy that prompt from the guide and paste it into the scheduled-task chat, then hit send.
+Just like previous one, we need to tell what we want to schedule. For this case I already prepare the sample prompt. 
+Just go to the hands-on guide under step 3 copy this prompt. This prompt tell ...
+You can adjust it base on ur liking and click send.
 
 ---
 
@@ -62,11 +51,7 @@ Go ahead and copy that prompt from the guide and paste it into the scheduled-tas
 
 > **[Check guide: Use Case 3, Step 4]**
 
-Once ChatGPT confirms the task is created, open the task named **"AI Work Organizer"**.
-
-Check these settings: task name, repeat frequency, scheduled time, time zone, and next run. Confirm it runs every day at **9:00 AM Singapore time**.
-
-This step prevents common problems — the task running in the wrong time zone, being created as a one-time task, or starting on the wrong date. Adjust the time or frequency if anything looks off.
+Same as before , Once ChatGPT created the task we can open up the configuration and check the scheduled time, frequency so on and so forth
 
 ---
 
@@ -74,11 +59,11 @@ This step prevents common problems — the task running in the wrong time zone, 
 
 > **[Check guide: Use Case 3, Step 5]**
 
-You don't need to wait until tomorrow morning to see the output. Let's run it now.
+You don't need to wait until tomorrow morning to see the output. We can run it immediately here.
 
-Open the AI Work Organizer task, click the three-dot **…** menu, and select **Run now**.
+Open up the configuration, click the three-dot **…** menu at the top, and select **Run Now**.
 
-When run manually, the report generates immediately. A scheduled-task notification may not appear because the result opens directly in the current session — but the recurring daily schedule remains active in the background.
+When we run manually like this, the report generates immediately. However there won't be notification that send to ur mail box. So if it trigger automatically then it will send u the notification. 
 
 ---
 
@@ -86,34 +71,22 @@ When run manually, the report generates immediately. A scheduled-task notificati
 
 > **[Check guide: Use Case 3, Step 6]**
 
-Have a look at the calendar section of the report. It should show every event from Monday to Sunday with the date, start and end time, and event name. All-day events will be labelled "All day" and timed events will show the time in Singapore time.
-
-Use the calendar section to spot busy periods, back-to-back meetings, days with limited working time, or upcoming deadlines.
-
----
-
-## Step 7 — Review Important Emails and Priorities
-
-> **[Check guide: Use Case 3, Step 7]**
-
-The email section will list emails that may require attention — recent emails likely needing a reply, older flagged emails that remain unresolved, and high-importance emails requiring action.
-
-Note that it doesn't include an email merely because it's unread or marked important — the content has to indicate that some form of action is required.
-
-Finally, the **Priorities** section consolidates everything into no more than five actions for today or this week, with any conflicts or calendar risks flagged at the bottom.
-
-Is everyone seeing the report? Any questions on what's in it?
+This is how the report looks like. It includes the calender section, list down the event for the week, email section and 
+For example,  it is able to identify those normal emails that needs my attention and follow up. And also those emails that flag by me.
+It also the include the priority recommendation section, it will suggest what I should do first.
 
 ---
 
 ## Wrap-up
 
-That's use case three — the AI Work Organizer. You've taken two features you already knew — scheduled tasks and plugins — and combined them into something that gives you a structured daily briefing every morning, automatically.
 
-The real value here isn't just the automation — it's the structure. Instead of spending the first 20 minutes of your day context-switching through email and calendar separately, you get one consolidated view, ready when you start work.
+Instead of spending the first 20 minutes of your day context-switching through email and calendar separately, you get one consolidated view, ready when you start work. 
 
-Let's move on to use case four.
 
+It's a pretty simple setup — but the applications can go way beyond these few use cases. Any recurring task like this, can be automated the same way. 
+
+
+Let's move on to our next use case, which is custom-gpt
 ---
 
 *[Proceed to: `04-custom-gpt.md`]*

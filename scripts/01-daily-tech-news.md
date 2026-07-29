@@ -68,7 +68,7 @@ Basically u just got a daily tech briefing, fully automated, delivered to you ev
 
 Now lets move on to another useful use case, which is connecting our ChatGPT to our SharePoint to help us better understand our documents.
 
-That's all about use case one! As you can see, it's a pretty simple setup — but the applications go way beyond just tech news. You could schedule it to summarise your important emails, monitor the latest market trends, or keep up with industry news. Really, any recurring task like this can be automated the same way. 
+
 
 
 
