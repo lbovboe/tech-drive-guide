@@ -90,9 +90,7 @@ Now let's say you want your team to use this same skill. Click the three-dot men
 ## Step 11 — Set Access Permissions
 
 
-Under "Who has access", select the organisation-wide option — something like **"Anyone at SG WOG ChatGPT"**.
-
-That's it. Your skill is now discoverable and usable by anyone in the organisation.
+You can share to individuals or u can share to whole WOG workspace. If u shared with WOG workspace then anyone can find ur Skill using the search bar that we demo just now.
 
 ---
 ---
