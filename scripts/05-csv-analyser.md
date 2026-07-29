@@ -96,12 +96,9 @@ You can share to individuals or u can share to whole WOG workspace. If u shared 
 ---
 ## Wrap-up
 
-That's use case five. You've built a skill, run it, shared it, and installed a shared one. That's the full lifecycle.
+that's all about this use case, it takes in a CSV file and produces a structured, consistent report. No coding, no manual prompting every time.
 
-The key takeaway here is the sharing part — this is how you get consistency across your division without having to train everyone from scratch.
-
-Let's move on.
-
+Let's move on to our last use case which is the code reviewer.
 ---
 
 *[Proceed to: `06-python-reviewer.md`]*
