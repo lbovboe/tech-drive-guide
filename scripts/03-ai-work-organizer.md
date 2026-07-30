@@ -8,7 +8,7 @@ Now lets move on to the next use case the **AI Work Organizer**.
 
 This one combines two things we've already touched on — the scheduler and plugins.
 
-It will will use our calendar and email generate a weekly summary plan for us.
+It will use our calendar and email generate a weekly summary plan for us.
 
 ---
 

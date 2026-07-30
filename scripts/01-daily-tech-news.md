@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Alright, i believe everyone has login. let's start with building the schedule task for retrieving tech news every morning.
+Alright, i believe everyone has login. let's start with Daily Tech news Scheduler.
 
 ---
 
